@@ -1,0 +1,13 @@
+{
+	"nameJP": "咳き込み",
+	"nameEN": "Coughing Fit",
+	"attribute": "Curse",
+	"cost": -1,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": -1,
+	"effect": "Inflicts the Cold ailment. Target: 1 enemy"
+}

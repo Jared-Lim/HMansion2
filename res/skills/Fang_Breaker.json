@@ -1,0 +1,13 @@
+{
+	"nameJP": "牙折り",
+	"nameEN": "Fang Breaker",
+	"attribute": "Physical",
+	"cost": 12,
+	"power": "Weak",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 8,
+	"effect": "Weak Phys attack. Decreases attack. Target: 1 enemy"
+}

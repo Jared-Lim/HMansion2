@@ -1,0 +1,13 @@
+{
+	"nameJP": "リカーム",
+	"nameEN": "Recarm",
+	"attribute": "Recovery",
+	"cost": 20,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Ally",
+	"strengthen": 3,
+	"effect": "Revive from KO with half HP. Target: 1 ally"
+}

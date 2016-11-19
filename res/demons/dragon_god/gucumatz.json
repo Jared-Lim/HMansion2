@@ -1,0 +1,36 @@
+{
+	"tribe": "龍神",
+	"nameJP": "グクマッツ",
+	"nameEN": "Gucumatz",
+	"level": 33,
+	"stats": {
+		"hp": 301,
+		"mp": 135,
+		"strength": 39,
+		"skill": 36,
+		"magic": 36,
+		"speed": 47,
+		"luck": 39
+	},
+	"affinity": {
+		"physical": "-",
+		"gun": "-",
+		"fire": "weak",
+		"ice": "absorb",
+		"thunder": "-",
+		"shock": "protect",
+		"banish": "-",
+		"curse": "weak",
+		"bind": "-",
+		"sleep": "-",
+		"cold": "-",
+		"confusion": "-",
+		"poison": "-"
+	},
+	"skills": {
+		"ラクンダ": 0,
+		"メギド": 0,
+		"龍の反応": 35,
+		"火炎耐性": 37
+	}
+}

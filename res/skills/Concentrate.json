@@ -1,0 +1,13 @@
+{
+	"nameJP": "コンセントレイト",
+	"nameEN": "Concentrate",
+	"attribute": "Support",
+	"cost": 11,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Self",
+	"strengthen": 3,
+	"effect": "Power of next magic attack more than doubles. Target: Self"
+}

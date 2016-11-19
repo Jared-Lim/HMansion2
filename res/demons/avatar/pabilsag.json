@@ -1,0 +1,35 @@
+{
+	"tribe": "聖獣",
+	"nameJP": "パピルサグ",
+	"nameEN": "Pabilsag",
+	"level": 26,
+	"stats": {
+		"hp": 241,
+		"mp": 67,
+		"strength": 40,
+		"skill": 35,
+		"magic": 28,
+		"speed": 32,
+		"luck": 27
+	},
+	"affinity": {
+		"physical": "-",
+		"gun": "reflect",
+		"fire": "-",
+		"ice": "-",
+		"thunder": "weak",
+		"shock": "-",
+		"banish": "-",
+		"curse": "-",
+		"bind": "-",
+		"sleep": "-",
+		"cold": "-",
+		"confusion": "-",
+		"poison": "null"
+	},
+	"skills": {
+		"毒針": 0,
+		"ポズムディ": 0,
+		"ブラストアロー": 28
+	}
+}

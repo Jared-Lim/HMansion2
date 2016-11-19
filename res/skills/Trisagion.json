@@ -1,0 +1,13 @@
+{
+	"nameJP": "トリスアギオン",
+	"nameEN": "Trisagion",
+	"attribute": "Fire",
+	"cost": 22,
+	"power": "Severe",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 8,
+	"effect": "Severe Fire attack. Target: 1 enemy"
+}

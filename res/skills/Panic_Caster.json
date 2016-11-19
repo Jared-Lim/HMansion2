@@ -1,0 +1,13 @@
+{
+	"nameJP": "パニックマジック",
+	"nameEN": "Panic Caster",
+	"attribute": "Support",
+	"cost": 10,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Self",
+	"strengthen": 3,
+	"effect": "Increases effect of magic for a few turns. Target: Self; Inflicts Panic"
+}

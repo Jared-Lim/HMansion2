@@ -1,0 +1,13 @@
+{
+	"nameJP": "バインドクロー",
+	"nameEN": "Binding Claw",
+	"attribute": "Physical",
+	"cost": 11,
+	"power": "Medium",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 8,
+	"effect": "Medium Phys attack. Inflicts Bind. Target: 1 enemy"
+}

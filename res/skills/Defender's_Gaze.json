@@ -1,0 +1,13 @@
+{
+	"nameJP": "守護者の眼光",
+	"nameEN": "Defender's Gaze",
+	"attribute": "Support",
+	"cost": 255,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All allies",
+	"strengthen": -1,
+	"effect": "-"
+}

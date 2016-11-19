@@ -1,0 +1,35 @@
+{
+	"tribe": "魔王",
+	"nameJP": "モラクス",
+	"nameEN": "Morax",
+	"level": 15,
+	"stats": {
+		"hp": 237,
+		"mp": 46,
+		"strength": 26,
+		"skill": 23,
+		"magic": 19,
+		"speed": 21,
+		"luck": 18
+	},
+	"affinity": {
+		"physical": "-",
+		"gun": "-",
+		"fire": "reflect",
+		"ice": "weak",
+		"thunder": "-",
+		"shock": "-",
+		"banish": "-",
+		"curse": "null",
+		"bind": "-",
+		"sleep": "-",
+		"cold": "weak",
+		"confusion": "-",
+		"poison": "-"
+	},
+	"skills": {
+		"鬼神楽": 0,
+		"反撃": 0,
+		"一分の活泉": 16
+	}
+}

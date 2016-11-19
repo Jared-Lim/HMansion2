@@ -1,0 +1,13 @@
+{
+	"nameJP": "放電",
+	"nameEN": "Shock",
+	"attribute": "Electric",
+	"cost": 21,
+	"power": "Weak",
+	"hits": "1-4",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Multi-enemies",
+	"strengthen": 8,
+	"effect": "1-4 weak Elec attacks. Target: Multi-enemies"
+}

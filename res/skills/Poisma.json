@@ -1,0 +1,13 @@
+{
+	"nameJP": "ポイズマ",
+	"nameEN": "Poisma",
+	"attribute": "Curse",
+	"cost": 4,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 5,
+	"effect": "Inflicts the Poison ailment. Target: 1 enemy"
+}

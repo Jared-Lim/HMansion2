@@ -1,0 +1,13 @@
+{
+	"nameJP": "銃貫通",
+	"nameEN": "Gun Penetrate",
+	"attribute": "Passive",
+	"cost": -1,
+	"power": "-",
+	"hits": "-",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Self",
+	"strengthen": -1,
+	"effect": "-"
+}

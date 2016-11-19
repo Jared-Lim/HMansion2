@@ -1,0 +1,13 @@
+{
+	"nameJP": "鬼神楽",
+	"nameEN": "Oni-Kagura",
+	"attribute": "Physical",
+	"cost": 9,
+	"power": "Medium",
+	"hits": "1",
+	"kuli": "High",
+	"hit": "Low",
+	"target": "Enemy",
+	"strengthen": 8,
+	"effect": "Medium Phys attack. High critical rate/low hit rate. Target: 1 enemy"
+}

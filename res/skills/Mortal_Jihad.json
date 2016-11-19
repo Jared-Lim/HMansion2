@@ -1,0 +1,13 @@
+{
+	"nameJP": "モータルジハード",
+	"nameEN": "Mortal Jihad",
+	"attribute": "Physical",
+	"cost": 13,
+	"power": "Heavy",
+	"hits": "1",
+	"kuli": "High",
+	"hit": "Low",
+	"target": "Enemy",
+	"strengthen": 8,
+	"effect": "Heavy Phys attack. High critical rate/low hit rate. Target: 1 enemy"
+}

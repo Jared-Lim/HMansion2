@@ -1,0 +1,13 @@
+{
+	"nameJP": "龍の反応",
+	"nameEN": "Draconic Reaction",
+	"attribute": "Passive",
+	"cost": 0,
+	"power": "-",
+	"hits": "-",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Self",
+	"strengthen": -1,
+	"effect": "Greatly increases hit/evade rate"
+}

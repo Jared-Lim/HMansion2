@@ -1,0 +1,13 @@
+{
+	"nameJP": "天使長の号令",
+	"nameEN": "Archangel's Order",
+	"attribute": "Support",
+	"cost": 50,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": -1,
+	"effect": "-"
+}

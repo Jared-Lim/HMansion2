@@ -1,0 +1,13 @@
+{
+	"nameJP": "アイスブレス",
+	"nameEN": "Ice Breath",
+	"attribute": "Ice",
+	"cost": 21,
+	"power": "Weak",
+	"hits": "1-4",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Multi-enemies",
+	"strengthen": 8,
+	"effect": "1-4 weak Ice attacks. Target: Multi-enemies"
+}

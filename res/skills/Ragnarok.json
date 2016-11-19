@@ -1,0 +1,13 @@
+{
+	"nameJP": "ラグナロク",
+	"nameEN": "Ragnarok",
+	"attribute": "Fire",
+	"cost": 35,
+	"power": "Medium",
+	"hits": "1-4",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Multi-enemies",
+	"strengthen": 8,
+	"effect": "1-4 medium Fire attacks. Target: Multi-enemies"
+}

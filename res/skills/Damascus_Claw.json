@@ -1,0 +1,13 @@
+{
+	"nameJP": "ダマスカスクロー",
+	"nameEN": "Damascus Claw",
+	"attribute": "Physical",
+	"cost": 7,
+	"power": "Medium",
+	"hits": "1-3",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 8,
+	"effect": "1-3 medium Phys attacks. Target: 1 enemy"
+}

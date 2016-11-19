@@ -1,0 +1,13 @@
+{
+	"nameJP": "ディア",
+	"nameEN": "Dia",
+	"attribute": "Recovery",
+	"cost": 5,
+	"power": "Weak",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Ally",
+	"strengthen": 3,
+	"effect": "Heals HP. Target: 1 ally"
+}

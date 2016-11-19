@@ -1,0 +1,13 @@
+{
+	"nameJP": "バインドボイス",
+	"nameEN": "Bind Voice",
+	"attribute": "Curse",
+	"cost": 15,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 5,
+	"effect": "Inflicts the Bind ailment. Target: All enemies"
+}

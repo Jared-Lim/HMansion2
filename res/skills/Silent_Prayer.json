@@ -1,0 +1,13 @@
+{
+	"nameJP": "静寂の祈り",
+	"nameEN": "Silent Prayer",
+	"attribute": "Support",
+	"cost": 15,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Everyone",
+	"strengthen": 3,
+	"effect": "Removes status buffs and debuffs. Target: Everyone"
+}

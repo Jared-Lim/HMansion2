@@ -1,0 +1,13 @@
+{
+	"nameJP": "リカームドラ",
+	"nameEN": "Recarmdra",
+	"attribute": "Recovery",
+	"cost": 2,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All allies",
+	"strengthen": -1,
+	"effect": "Revives and heals allies in exchange for all HP. Target: All allies"
+}

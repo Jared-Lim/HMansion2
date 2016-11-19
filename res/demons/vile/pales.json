@@ -1,0 +1,35 @@
+{
+	"tribe": "邪神",
+	"nameJP": "パレス",
+	"nameEN": "Pales",
+	"level": 73,
+	"stats": {
+		"hp": 390,
+		"mp": 378,
+		"strength": 68,
+		"skill": 76,
+		"magic": 98,
+		"speed": 64,
+		"luck": 91
+	},
+	"affinity": {
+		"physical": "-",
+		"gun": "-",
+		"fire": "weak",
+		"ice": "null",
+		"thunder": "-",
+		"shock": "-",
+		"banish": "protect",
+		"curse": "null",
+		"bind": "-",
+		"sleep": "-",
+		"cold": "-",
+		"confusion": "-",
+		"poison": "-"
+	},
+	"skills": {
+		"マハムドオン": 0,
+		"パンデミアブーム": 0,
+		"デカジャ": 74
+	}
+}

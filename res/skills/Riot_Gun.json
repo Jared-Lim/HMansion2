@@ -1,0 +1,13 @@
+{
+	"nameJP": "至高の魔弾",
+	"nameEN": "Riot Gun",
+	"attribute": "Gun",
+	"cost": 30,
+	"power": "Severe",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 8,
+	"effect": "Severe Gun attack. Target: 1 enemy"
+}

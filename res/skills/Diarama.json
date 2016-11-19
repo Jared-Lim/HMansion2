@@ -1,0 +1,13 @@
+{
+	"nameJP": "ディアラマ",
+	"nameEN": "Diarama",
+	"attribute": "Recovery",
+	"cost": 9,
+	"power": "Medium",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Ally",
+	"strengthen": 3,
+	"effect": "Greatly heals HP. Target: 1 ally"
+}

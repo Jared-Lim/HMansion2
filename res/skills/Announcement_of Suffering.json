@@ -1,0 +1,13 @@
+{
+	"nameJP": "受難告知",
+	"nameEN": "Announcement of Suffering",
+	"attribute": "Curse",
+	"cost": 45,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": -1,
+	"effect": "-"
+}

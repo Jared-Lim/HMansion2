@@ -1,0 +1,13 @@
+{
+	"nameJP": "パンデミアブーム",
+	"nameEN": "Pandemic Bomb",
+	"attribute": "Curse",
+	"cost": 11,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 5,
+	"effect": "Inflicts the Sick ailment. Target: All enemies"
+}

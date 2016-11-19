@@ -1,0 +1,35 @@
+{
+	"tribe": "魔神",
+	"nameJP": "オメテオトル",
+	"nameEN": "Omoteotl",
+	"level": 59,
+	"stats": {
+		"hp": 324,
+		"mp": 315,
+		"strength": 56,
+		"skill": 62,
+		"magic": 81,
+		"speed": 53,
+		"luck": 75
+	},
+	"affinity": {
+		"physical": "-",
+		"gun": "-",
+		"fire": "protect",
+		"ice": "protect",
+		"thunder": "-",
+		"shock": "-",
+		"banish": "null",
+		"curse": "null",
+		"bind": "-",
+		"sleep": "-",
+		"cold": "-",
+		"confusion": "-",
+		"poison": "-"
+	},
+	"skills": {
+		"アギダイン": 0,
+		"リカームドラ": 0,
+		"ブフダイン": 61
+	}
+}

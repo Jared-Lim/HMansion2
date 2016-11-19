@@ -1,0 +1,13 @@
+{
+	"nameJP": "テタノスカット",
+	"nameEN": "Tetanus Cut",
+	"attribute": "Physical",
+	"cost": 11,
+	"power": "Medium",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 8,
+	"effect": "Medium Phys attack. Inflicts Sick. Target: 1 enemy"
+}

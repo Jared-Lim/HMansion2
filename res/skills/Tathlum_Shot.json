@@ -1,0 +1,13 @@
+{
+	"nameJP": "タスラムショット",
+	"nameEN": "Tathlum Shot",
+	"attribute": "Gun",
+	"cost": 7,
+	"power": "Medium",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 8,
+	"effect": "Medium Gun attack. Target: 1 enemy"
+}

@@ -1,0 +1,13 @@
+{
+	"nameJP": "トラフーリ",
+	"nameEN": "Trafuri",
+	"attribute": "Special",
+	"cost": 5,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All allies",
+	"strengthen": -1,
+	"effect": "Guaranteed escape when possible. Target: All allies"
+}

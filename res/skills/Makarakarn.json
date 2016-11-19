@@ -1,0 +1,13 @@
+{
+	"nameJP": "マカラカーン",
+	"nameEN": "Makarakarn",
+	"attribute": "Support",
+	"cost": 50,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All allies",
+	"strengthen": 3,
+	"effect": "Repels magic attacks (besides ailments) for 1 turn. Target: All allies"
+}

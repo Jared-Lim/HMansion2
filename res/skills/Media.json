@@ -1,0 +1,13 @@
+{
+	"nameJP": "メディア",
+	"nameEN": "Media",
+	"attribute": "Recovery",
+	"cost": 12,
+	"power": "Weal",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All allies",
+	"strengthen": 3,
+	"effect": "Heals HP. Target: All allies"
+}

@@ -1,0 +1,13 @@
+{
+	"nameJP": "破魔耐性",
+	"nameEN": "Resist Light",
+	"attribute": "Passive",
+	"cost": 0,
+	"power": "-",
+	"hits": "-",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Self",
+	"strengthen": -1,
+	"effect": "Increases resistance to Light attacks. Target: Self"
+}

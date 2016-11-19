@@ -1,0 +1,13 @@
+{
+	"nameJP": "プリンパ",
+	"nameEN": "Pulinpa",
+	"attribute": "Curse",
+	"cost": 5,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 5,
+	"effect": "Inflicts the Panic ailment. Target: 1 enemy"
+}

@@ -1,0 +1,13 @@
+{
+	"nameJP": "子守唄",
+	"nameEN": "Lullaby",
+	"attribute": "Curse",
+	"cost": 11,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 5,
+	"effect": "Inflicts the Sleep ailment. Target: All enemies"
+}

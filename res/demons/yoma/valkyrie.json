@@ -1,0 +1,36 @@
+{
+	"tribe": "妖魔",
+	"nameJP": "ヴァルキリー",
+	"nameEN": "Valkyrie",
+	"level": 45,
+	"stats": {
+		"hp": 455,
+		"mp": 103,
+		"strength": 60,
+		"skill": 41,
+		"magic": 53,
+		"speed": 48,
+		"luck": 39
+	},
+	"affinity": {
+		"physical": "protect",
+		"gun": "-",
+		"fire": "-",
+		"ice": "-",
+		"thunder": "weak",
+		"shock": "-",
+		"banish": "protect",
+		"curse": "protect",
+		"bind": "-",
+		"sleep": "-",
+		"cold": "-",
+		"confusion": "-",
+		"poison": "-"
+	},
+	"skills": {
+		"テトラカーン": 0,
+		"ジャベリンレイン": 0,
+		"モータルジハード": 46,
+		"捧魂の法": 47
+	}
+}

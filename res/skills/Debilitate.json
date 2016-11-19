@@ -1,0 +1,13 @@
+{
+	"nameJP": "ランダマイザ",
+	"nameEN": "Debilitate",
+	"attribute": "Support",
+	"cost": 50,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 3,
+	"effect": "Decreases attack/defense/hit/evade rate. Target: All enemies"
+}

@@ -1,0 +1,13 @@
+{
+	"nameJP": "メギドプラズマー",
+	"nameEN": "Megidoplasma",
+	"attribute": "Almighty",
+	"cost": 41,
+	"power": "Heavy",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 8,
+	"effect": "Heavy Almighty attack. Target: All enemies"
+}

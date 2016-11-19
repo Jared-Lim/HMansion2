@@ -1,0 +1,36 @@
+{
+	"tribe": "幻魔",
+	"nameJP": "ヤリーロ",
+	"nameEN": "Jarilo",
+	"level": 61,
+	"stats": {
+		"hp": 497,
+		"mp": 223,
+		"strength": 67,
+		"skill": 61,
+		"magic": 61,
+		"speed": 80,
+		"luck": 67
+	},
+	"affinity": {
+		"physical": "-",
+		"gun": "null",
+		"fire": "-",
+		"ice": "-",
+		"thunder": "-",
+		"shock": "-",
+		"banish": "-",
+		"curse": "protect",
+		"bind": "-",
+		"sleep": "-",
+		"cold": "-",
+		"confusion": "-",
+		"poison": "-"
+	},
+	"skills": {
+		"ディアラハン": 0,
+		"狂乱針": 0,
+		"トラフーリ": 62,
+		"コロシの愉悦": 63
+	}
+}

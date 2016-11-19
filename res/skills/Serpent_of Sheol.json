@@ -1,0 +1,13 @@
+{
+	"nameJP": "シェオルの蛇",
+	"nameEN": "Serpent of Sheol",
+	"attribute": "almighty",
+	"cost": 45,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": -1,
+	"effect": "-"
+}

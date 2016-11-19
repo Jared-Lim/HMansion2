@@ -1,0 +1,13 @@
+{
+	"nameJP": "パニックボイス",
+	"nameEN": "Panic Voice",
+	"attribute": "Curse",
+	"cost": 15,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 5,
+	"effect": "Inflicts the Panic ailment. Target: All enemies"
+}

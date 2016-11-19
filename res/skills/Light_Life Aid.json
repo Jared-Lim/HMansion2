@@ -1,0 +1,13 @@
+{
+	"nameJP": "勝利の小息吹",
+	"nameEN": "Light Life Aid",
+	"attribute": "Passive",
+	"cost": 0,
+	"power": "-",
+	"hits": "-",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Self",
+	"strengthen": -1,
+	"effect": "Recover a little HP after a battle"
+}

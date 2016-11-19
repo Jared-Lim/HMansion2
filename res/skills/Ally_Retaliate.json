@@ -1,0 +1,13 @@
+{
+	"nameJP": "慈愛の猛反撃",
+	"nameEN": "Ally Retaliate",
+	"attribute": "Passive",
+	"cost": 0,
+	"power": "-",
+	"hits": "-",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Self",
+	"strengthen": -1,
+	"effect": "High chance of countering a Phys or Gun attack to an ally"
+}

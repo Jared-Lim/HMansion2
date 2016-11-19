@@ -1,0 +1,13 @@
+{
+	"nameJP": "チャージ",
+	"nameEN": "Charge",
+	"attribute": "Support",
+	"cost": 9,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Self",
+	"strengthen": 3,
+	"effect": "Power of next Phys/Gun attack more than doubles. Target: Self"
+}

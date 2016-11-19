@@ -1,0 +1,13 @@
+{
+	"nameJP": "捧魂の法",
+	"nameEN": "Blood Ritual",
+	"attribute": "Support",
+	"cost": 25,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Self",
+	"strengthen": 3,
+	"effect": "Increases attack/defense/hit/evade rate and reduces HP to 1. Target: Self"
+}

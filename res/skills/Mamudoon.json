@@ -1,0 +1,13 @@
+{
+	"nameJP": "マハムドオン",
+	"nameEN": "Mamudoon",
+	"attribute": "Dark",
+	"cost": 30,
+	"power": "Special",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 5,
+	"effect": "Dark instant kill. Target: All enemies; High success"
+}

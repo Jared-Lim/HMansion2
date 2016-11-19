@@ -1,0 +1,35 @@
+{
+	"tribe": "妖獣",
+	"nameJP": "カクエン",
+	"nameEN": "Jueyuan",
+	"level": 12,
+	"stats": {
+		"hp": 154,
+		"mp": 68,
+		"strength": 18,
+		"skill": 18,
+		"magic": 18,
+		"speed": 18,
+		"luck": 18
+	},
+	"affinity": {
+		"physical": "-",
+		"gun": "-",
+		"fire": "null",
+		"ice": "-",
+		"thunder": "-",
+		"shock": "weak",
+		"banish": "-",
+		"curse": "-",
+		"bind": "-",
+		"sleep": "-",
+		"cold": "-",
+		"confusion": "-",
+		"poison": "null"
+	},
+	"skills": {
+		"ポイズンクロー": 0,
+		"アギ": 0,
+		"ポズムディ": 13
+	}
+}

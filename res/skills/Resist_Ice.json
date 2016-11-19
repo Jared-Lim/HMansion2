@@ -1,0 +1,13 @@
+{
+	"nameJP": "氷結耐性",
+	"nameEN": "Resist Ice",
+	"attribute": "Passive",
+	"cost": 0,
+	"power": "-",
+	"hits": "-",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Self",
+	"strengthen": -1,
+	"effect": "Increases resistance to Ice attacks. Target: Self"
+}

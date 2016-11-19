@@ -1,0 +1,13 @@
+{
+	"nameJP": "といき",
+	"nameEN": "Breath",
+	"attribute": "Ice",
+	"cost": 24,
+	"power": "Medium",
+	"hits": "1-5",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Multi-enemies",
+	"strengthen": -1,
+	"effect": "1-5 medium Ice attacks. Target: Multi-enemies"
+}

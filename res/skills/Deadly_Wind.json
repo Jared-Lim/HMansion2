@@ -1,0 +1,13 @@
+{
+	"nameJP": "殺風激",
+	"nameEN": "Deadly Wind",
+	"attribute": "Force",
+	"cost": 22,
+	"power": "Severe",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 8,
+	"effect": "Severe Force attack. Target: Multi-enemies"
+}

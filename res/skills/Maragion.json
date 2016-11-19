@@ -1,0 +1,13 @@
+{
+	"nameJP": "マハラギオン",
+	"nameEN": "Maragion",
+	"attribute": "Fire",
+	"cost": 20,
+	"power": "Medium",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 8,
+	"effect": "Medium Fire attack. Target: All enemies"
+}

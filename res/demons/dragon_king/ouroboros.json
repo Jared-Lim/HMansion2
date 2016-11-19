@@ -1,0 +1,36 @@
+{
+	"tribe": "龍王",
+	"nameJP": "ウロボロス",
+	"nameEN": "Ouroboros",
+	"level": 49,
+	"stats": {
+		"hp": 413,
+		"mp": 184,
+		"strength": 55,
+		"skill": 55,
+		"magic": 55,
+		"speed": 55,
+		"luck": 55
+	},
+	"affinity": {
+		"physical": "protect",
+		"gun": "-",
+		"fire": "-",
+		"ice": "protect",
+		"thunder": "absorb",
+		"shock": "-",
+		"banish": "protect",
+		"curse": "protect",
+		"bind": "weak",
+		"sleep": "weak",
+		"cold": "-",
+		"confusion": "weak",
+		"poison": "weak"
+	},
+	"skills": {
+		"メギドラ": 0,
+		"生命の泉": 0,
+		"精神異常無効": 50,
+		"身体異常無効": 51
+	}
+}

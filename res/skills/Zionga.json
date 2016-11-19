@@ -1,0 +1,13 @@
+{
+	"nameJP": "ジオンガ",
+	"nameEN": "Zionga",
+	"attribute": "Electric",
+	"cost": 8,
+	"power": "Medium",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 8,
+	"effect": "Medium Elec attack. Target: 1 enemy"
+}

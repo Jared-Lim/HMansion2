@@ -1,0 +1,13 @@
+{
+	"nameJP": "メパトラ",
+	"nameEN": "Me Patra",
+	"attribute": "Recovery",
+	"cost": 15,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All allies",
+	"strengthen": 3,
+	"effect": "Removes Sleep/Panic/Bind ailments. Target: All allies"
+}

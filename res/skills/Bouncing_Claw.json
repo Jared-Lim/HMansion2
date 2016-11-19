@@ -1,0 +1,13 @@
+{
+	"nameJP": "バウンスクロー",
+	"nameEN": "Bouncing Claw",
+	"attribute": "Physical",
+	"cost": 4,
+	"power": "Weak",
+	"hits": "1-3",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 8,
+	"effect": "1-3 weak Phys attacks. Target: 1 enemy"
+}

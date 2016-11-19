@@ -1,0 +1,13 @@
+{
+	"nameJP": "ニードルショット",
+	"nameEN": "Needle Shot",
+	"attribute": "Gun",
+	"cost": 4,
+	"power": "Weak",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 8,
+	"effect": "Weak Gun attack. Target: 1 enemy"
+}

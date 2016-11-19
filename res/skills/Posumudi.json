@@ -1,0 +1,13 @@
+{
+	"nameJP": "ポズムディ",
+	"nameEN": "Posumudi",
+	"attribute": "Recovery",
+	"cost": 5,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Ally",
+	"strengthen": 3,
+	"effect": "Removes Poison/Sick ailments. Target: 1 ally"
+}

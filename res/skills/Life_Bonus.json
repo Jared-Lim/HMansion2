@@ -1,0 +1,13 @@
+{
+	"nameJP": "一分の活泉",
+	"nameEN": "Life Bonus",
+	"attribute": "Passive",
+	"cost": 0,
+	"power": "-",
+	"hits": "-",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Self",
+	"strengthen": -1,
+	"effect": "Slightly increases maximum HP (+10%). Target: Self"
+}

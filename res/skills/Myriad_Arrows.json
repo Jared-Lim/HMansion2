@@ -1,0 +1,13 @@
+{
+	"nameJP": "刹那五月雨撃ち",
+	"nameEN": "Myriad Arrows",
+	"attribute": "Gun",
+	"cost": 30,
+	"power": "Weak",
+	"hits": "2-4",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Multi-enemies",
+	"strengthen": 8,
+	"effect": "2-4 weak Gun attacks. Target: Multi-enemies"
+}

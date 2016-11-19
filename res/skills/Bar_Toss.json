@@ -1,0 +1,13 @@
+{
+	"nameJP": "閂投げ",
+	"nameEN": "Bar Toss",
+	"attribute": "Physical",
+	"cost": 35,
+	"power": "Weak",
+	"hits": "1-15",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Multi-enemies",
+	"strengthen": 8,
+	"effect": "-"
+}

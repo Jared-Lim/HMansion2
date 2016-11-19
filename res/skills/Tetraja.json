@@ -1,0 +1,13 @@
+{
+	"nameJP": "テトラジャ",
+	"nameEN": "Tetraja",
+	"attribute": "Support",
+	"cost": 15,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All allies",
+	"strengthen": 3,
+	"effect": "Prevents 1 Light/Dark instant kill. Target: All allies"
+}

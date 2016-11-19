@@ -1,0 +1,13 @@
+{
+	"nameJP": "プラズマ放電",
+	"nameEN": "Plasma Discharge",
+	"attribute": "Electric",
+	"cost": 22,
+	"power": "Weak",
+	"hits": "1-8",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Multi-enemies",
+	"strengthen": 8,
+	"effect": "1-8 weak Elec attacks. Target: Multi-enemies"
+}

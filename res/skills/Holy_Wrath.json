@@ -1,0 +1,13 @@
+{
+	"nameJP": "天罰",
+	"nameEN": "Holy Wrath",
+	"attribute": "Almighty",
+	"cost": 45,
+	"power": "Varies",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 8,
+	"effect": "Almighty attack. Target: All enemies. Effect: Varies with enemy's alignment."
+}

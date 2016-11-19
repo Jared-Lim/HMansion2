@@ -1,0 +1,13 @@
+{
+	"nameJP": "バビロンの杯",
+	"nameEN": "Cup of Babylon",
+	"attribute": "Almighty",
+	"cost": 65,
+	"power": "Medium",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 8,
+	"effect": "Medium Almighty skill. Target: All enemies"
+}

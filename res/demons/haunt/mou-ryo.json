@@ -1,0 +1,39 @@
+{
+	"tribe": "幽鬼",
+	"nameJP": "モウリョウ",
+	"nameEN": "Mou-Ryo",
+	"level": 24,
+	"stats": {
+		"hp": 238,
+		"mp": 107,
+		"strength": 30,
+		"skill": 28,
+		"magic": 28,
+		"speed": 36,
+		"luck": 30
+	},
+	"affinity": {
+		"physical": "-",
+		"gun": "-",
+		"fire": "-",
+		"ice": "-",
+		"thunder": "-",
+		"shock": "-",
+		"banish": "weak",
+		"curse": "null",
+		"bind": "-",
+		"sleep": "-",
+		"cold": "-",
+		"confusion": "-",
+		"poison": "-"
+	},
+	"skills": {
+		"ムド": 0,
+		"吸魔": 0,
+		"プリンパ": 26
+	},
+	"mutate": {
+		"level": 28,
+		"target": "インフェルノ"
+	}
+}

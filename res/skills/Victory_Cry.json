@@ -1,0 +1,13 @@
+{
+	"nameJP": "勝利の雄叫び",
+	"nameEN": "Victory Cry",
+	"attribute": "Passive",
+	"cost": 0,
+	"power": "-",
+	"hits": "-",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Self",
+	"strengthen": -1,
+	"effect": "Recovers full HP/MP after a battle"
+}

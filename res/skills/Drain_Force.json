@@ -1,0 +1,13 @@
+{
+	"nameJP": "衝撃吸収",
+	"nameEN": "Drain Force",
+	"attribute": "Passive",
+	"cost": 0,
+	"power": "-",
+	"hits": "-",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Self",
+	"strengthen": -1,
+	"effect": "Drains Force attacks. Target: Self"
+}

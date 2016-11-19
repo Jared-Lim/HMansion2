@@ -1,0 +1,13 @@
+{
+	"nameJP": "ダークエナジー",
+	"nameEN": "Dark Energy",
+	"attribute": "Support",
+	"cost": 25,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Self",
+	"strengthen": 3,
+	"effect": "-"
+}

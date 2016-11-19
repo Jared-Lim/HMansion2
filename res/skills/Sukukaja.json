@@ -1,0 +1,13 @@
+{
+	"nameJP": "スクカジャ",
+	"nameEN": "Sukukaja",
+	"attribute": "Support",
+	"cost": 15,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All allies",
+	"strengthen": 3,
+	"effect": "Increases hit/evade rate. Target: All allies"
+}

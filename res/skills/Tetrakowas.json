@@ -1,0 +1,13 @@
+{
+	"nameJP": "テトラコワース",
+	"nameEN": "Tetrakowas",
+	"attribute": "Support",
+	"cost": 35,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": -1,
+	"effect": "-"
+}

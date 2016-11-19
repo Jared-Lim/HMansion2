@@ -1,0 +1,13 @@
+{
+	"nameJP": "マハザン",
+	"nameEN": "Mazan",
+	"attribute": "Force",
+	"cost": 11,
+	"power": "Weak",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 8,
+	"effect": "Weak Force attack. Target: All enemies"
+}

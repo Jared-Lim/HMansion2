@@ -1,0 +1,13 @@
+{
+	"nameJP": "物理無効",
+	"nameEN": "Null Phys",
+	"attribute": "Passive",
+	"cost": 0,
+	"power": "-",
+	"hits": "-",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Self",
+	"strengthen": -1,
+	"effect": "Nulls Phys attacks. Target: Self"
+}

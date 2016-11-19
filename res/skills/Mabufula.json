@@ -1,0 +1,13 @@
+{
+	"nameJP": "マハブフーラ",
+	"nameEN": "Mabufula",
+	"attribute": "Ice",
+	"cost": 20,
+	"power": "Medium",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": -1,
+	"effect": "Medium Ice attack. Target: All enemies"
+}

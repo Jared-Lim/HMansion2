@@ -1,0 +1,13 @@
+{
+	"nameJP": "審判の光",
+	"nameEN": "Judgement Light",
+	"attribute": "Light",
+	"cost": 45,
+	"power": "Special",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 5,
+	"effect": "Light instant kill. Target: All enemies; Very high success"
+}

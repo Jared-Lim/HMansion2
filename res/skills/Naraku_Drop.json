@@ -1,0 +1,13 @@
+{
+	"nameJP": "ナラク落とし",
+	"nameEN": "Naraku Drop",
+	"attribute": "Almighty",
+	"cost": 50,
+	"power": "Always 666",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 8,
+	"effect": "-"
+}

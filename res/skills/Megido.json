@@ -1,0 +1,13 @@
+{
+	"nameJP": "メギド",
+	"nameEN": "Megido",
+	"attribute": "Almighty",
+	"cost": 25,
+	"power": "Weak",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 8,
+	"effect": "Weak Almighty attack. Target: All enemies"
+}

@@ -1,0 +1,13 @@
+{
+	"nameJP": "ヒートウェイブ",
+	"nameEN": "Heat Wave",
+	"attribute": "Physical",
+	"cost": 11,
+	"power": "Weak",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 8,
+	"effect": "Weak PWeak Phys attack. Target: All enemies"
+}

@@ -1,0 +1,13 @@
+{
+	"nameJP": "忌念の戦慄",
+	"nameEN": "Shivering Taboo",
+	"attribute": "Curse",
+	"cost": 40,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 5,
+	"effect": "Inflicts several ailments. Target: All enemies"
+}

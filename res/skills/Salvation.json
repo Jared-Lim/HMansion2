@@ -1,0 +1,13 @@
+{
+	"nameJP": "メシアライザー",
+	"nameEN": "Salvation",
+	"attribute": "Recovery",
+	"cost": 50,
+	"power": "Severe",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All allies",
+	"strengthen": 3,
+	"effect": "Fully heals HP and removes ailments. Target: All allies"
+}

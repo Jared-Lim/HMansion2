@@ -1,0 +1,35 @@
+{
+	"tribe": "魔王",
+	"nameJP": "アバドン",
+	"nameEN": "Abaddon",
+	"level": 64,
+	"stats": {
+		"hp": 700,
+		"mp": 139,
+		"strength": 87,
+		"skill": 77,
+		"magic": 60,
+		"speed": 70,
+		"luck": 57
+	},
+	"affinity": {
+		"physical": "-",
+		"gun": "-",
+		"fire": "reflect",
+		"ice": "-",
+		"thunder": "weak",
+		"shock": "-",
+		"banish": "null",
+		"curse": "null",
+		"bind": "-",
+		"sleep": "-",
+		"cold": "-",
+		"confusion": "-",
+		"poison": "-"
+	},
+	"skills": {
+		"冥界破": 0,
+		"猛反撃": 0,
+		"氷結反射": 66
+	}
+}

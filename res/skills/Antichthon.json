@@ -1,0 +1,13 @@
+{
+	"nameJP": "アンティクトン",
+	"nameEN": "Antichthon",
+	"attribute": "almighty",
+	"cost": 80,
+	"power": "Severe",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 8,
+	"effect": "Severe Almighty attack. Target: All enemies. Effect: Stats down"
+}

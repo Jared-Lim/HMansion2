@@ -1,0 +1,13 @@
+{
+	"nameJP": "招来の舞踏",
+	"nameEN": "Invitation",
+	"attribute": "Special",
+	"cost": 45,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Ally",
+	"strengthen": -1,
+	"effect": "Summons/returns an ally demon and revives from KO. Target: 1 ally"
+}

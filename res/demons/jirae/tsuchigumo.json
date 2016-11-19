@@ -1,0 +1,35 @@
+{
+	"tribe": "地霊",
+	"nameJP": "ツチグモ",
+	"nameEN": "Tsuchigumo",
+	"level": 30,
+	"stats": {
+		"hp": 280,
+		"mp": 126,
+		"strength": 36,
+		"skill": 36,
+		"magic": 36,
+		"speed": 36,
+		"luck": 36
+	},
+	"affinity": {
+		"physical": "-",
+		"gun": "-",
+		"fire": "-",
+		"ice": "weak",
+		"thunder": "reflect",
+		"shock": "-",
+		"banish": "-",
+		"curse": "-",
+		"bind": "-",
+		"sleep": "-",
+		"cold": "-",
+		"confusion": "-",
+		"poison": "protect"
+	},
+	"skills": {
+		"ポイズンクロー": 0,
+		"ジオンガ": 0,
+		"メパトラ": 31
+	}
+}

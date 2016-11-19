@@ -1,0 +1,13 @@
+{
+	"nameJP": "ドルミナー",
+	"nameEN": "Dormina",
+	"attribute": "Curse",
+	"cost": 4,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 5,
+	"effect": "Inflicts the Sleep ailment. Target: 1 enemy"
+}

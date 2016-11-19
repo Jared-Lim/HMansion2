@@ -1,0 +1,13 @@
+{
+	"nameJP": "電撃吸収",
+	"nameEN": "Drain Electric",
+	"attribute": "Passive",
+	"cost": 0,
+	"power": "-",
+	"hits": "-",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Self",
+	"strengthen": -1,
+	"effect": "Drains Elec attacks. Target: Self"
+}

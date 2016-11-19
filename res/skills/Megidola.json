@@ -1,0 +1,13 @@
+{
+	"nameJP": "メギドラ",
+	"nameEN": "Megidola",
+	"attribute": "Almighty",
+	"cost": 40,
+	"power": "Medium",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 8,
+	"effect": "Medium Almighty attack. Target: All enemies"
+}

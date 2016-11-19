@@ -1,0 +1,13 @@
+{
+	"nameJP": "ディアラハン",
+	"nameEN": "Diarahan",
+	"attribute": "Recovery",
+	"cost": 16,
+	"power": "Heavy",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Ally",
+	"strengthen": 3,
+	"effect": "Fully heals HP. Target: 1 ally"
+}

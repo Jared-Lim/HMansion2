@@ -1,0 +1,13 @@
+{
+	"nameJP": "奥義一閃",
+	"nameEN": "Occult Flash",
+	"attribute": "Physical",
+	"cost": 30,
+	"power": "Medium",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 8,
+	"effect": "-"
+}

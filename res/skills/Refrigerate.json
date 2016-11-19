@@ -1,0 +1,13 @@
+{
+	"nameJP": "リフリジレイト",
+	"nameEN": "Refrigerate",
+	"attribute": "Ice",
+	"cost": 26,
+	"power": "Weak",
+	"hits": "1-8",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Multi-enemies",
+	"strengthen": 8,
+	"effect": "-"
+}

@@ -1,0 +1,13 @@
+{
+	"nameJP": "火炎ギガプレロマ",
+	"nameEN": "High Fire Pleroma",
+	"attribute": "Passive",
+	"cost": 0,
+	"power": "-",
+	"hits": "-",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Self",
+	"strengthen": -1,
+	"effect": "Greatly strengthens Fire attacks (+50%). Target: Self"
+}

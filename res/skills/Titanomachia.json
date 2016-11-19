@@ -1,0 +1,13 @@
+{
+	"nameJP": "ティタノマキア",
+	"nameEN": "Titanomachia",
+	"attribute": "Physical",
+	"cost": 30,
+	"power": "Heavy",
+	"hits": "1",
+	"kuli": "High",
+	"hit": "Low",
+	"target": "All enemies",
+	"strengthen": 8,
+	"effect": "Heavy Phys attack. High critical rate/low hit rate. Target: All enemies"
+}

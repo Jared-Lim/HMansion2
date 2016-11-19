@@ -1,0 +1,35 @@
+{
+	"tribe": "地母神",
+	"nameJP": "ズェラロンズ",
+	"nameEN": "Dzelarhons",
+	"level": 17,
+	"stats": {
+		"hp": 127,
+		"mp": 122,
+		"strength": 20,
+		"skill": 22,
+		"magic": 28,
+		"speed": 19,
+		"luck": 26
+	},
+	"affinity": {
+		"physical": "-",
+		"gun": "-",
+		"fire": "reflect",
+		"ice": "weak",
+		"thunder": "-",
+		"shock": "-",
+		"banish": "-",
+		"curse": "null",
+		"bind": "-",
+		"sleep": "-",
+		"cold": "-",
+		"confusion": "-",
+		"poison": "-"
+	},
+	"skills": {
+		"アギラオ": 0,
+		"猛勉強": 19,
+		"一分の魔脈": 20
+	}
+}

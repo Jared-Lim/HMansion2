@@ -1,0 +1,13 @@
+{
+	"nameJP": "ジャベリンレイン",
+	"nameEN": "Javelin Rain",
+	"attribute": "Physical",
+	"cost": 21,
+	"power": "Medium",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 8,
+	"effect": "Medium Phys attack. Target: All enemies"
+}

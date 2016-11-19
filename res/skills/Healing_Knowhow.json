@@ -1,0 +1,13 @@
+{
+	"nameJP": "道具の知恵・癒",
+	"nameEN": "Healing Knowhow",
+	"attribute": "Passive",
+	"cost": 0,
+	"power": "-",
+	"hits": "-",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Self",
+	"strengthen": -1,
+	"effect": "Enables the use of healing/support items. Target: Self"
+}

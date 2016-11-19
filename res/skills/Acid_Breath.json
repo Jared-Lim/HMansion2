@@ -1,0 +1,13 @@
+{
+	"nameJP": "溶解ブレス",
+	"nameEN": "Acid Breath",
+	"attribute": "Support",
+	"cost": 45,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 3,
+	"effect": "Decreases defense/hit/evade rate. Target: All enemies"
+}

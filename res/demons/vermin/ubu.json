@@ -1,0 +1,39 @@
+{
+	"tribe": "妖虫",
+	"nameJP": "ウブ",
+	"nameEN": "Ubu",
+	"level": 22,
+	"stats": {
+		"hp": 224,
+		"mp": 99,
+		"strength": 28,
+		"skill": 26,
+		"magic": 26,
+		"speed": 33,
+		"luck": 28
+	},
+	"affinity": {
+		"physical": "-",
+		"gun": "null",
+		"fire": "-",
+		"ice": "-",
+		"thunder": "-",
+		"shock": "-",
+		"banish": "weak",
+		"curse": "-",
+		"bind": "-",
+		"sleep": "-",
+		"cold": "-",
+		"confusion": "-",
+		"poison": "protect"
+	},
+	"skills": {
+		"毒針": 0,
+		"テタノスカット": 0,
+		"麻痺針": 23
+	},
+	"mutate": {
+		"level": 26,
+		"target": "ツチグモ"
+	}
+}

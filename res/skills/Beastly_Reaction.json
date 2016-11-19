@@ -1,0 +1,13 @@
+{
+	"nameJP": "獣の反応",
+	"nameEN": "Beastly Reaction",
+	"attribute": "Passive",
+	"cost": 0,
+	"power": "-",
+	"hits": "-",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Self",
+	"strengthen": -1,
+	"effect": "Increases hit/evade rate"
+}

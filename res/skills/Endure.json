@@ -1,0 +1,13 @@
+{
+	"nameJP": "食いしばり",
+	"nameEN": "Endure",
+	"attribute": "Passive",
+	"cost": 0,
+	"power": "-",
+	"hits": "-",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Self",
+	"strengthen": -1,
+	"effect": "Revive from KO once per battle with 1 HP"
+}

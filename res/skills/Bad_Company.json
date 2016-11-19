@@ -1,0 +1,13 @@
+{
+	"nameJP": "バッドカンパニー",
+	"nameEN": "Bad Company",
+	"attribute": "Special",
+	"cost": 15,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All allies",
+	"strengthen": -1,
+	"effect": "Resummons your highest level demons from the stock. Target: All allies"
+}

@@ -1,0 +1,13 @@
+{
+	"nameJP": "マハンマ",
+	"nameEN": "Mahama",
+	"attribute": "Light",
+	"cost": 18,
+	"power": "Special",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 5,
+	"effect": "Light instant kill. Target: All enemies"
+}

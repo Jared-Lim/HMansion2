@@ -1,0 +1,13 @@
+{
+	"nameJP": "覚醒",
+	"nameEN": "Awakening",
+	"attribute": "Passive",
+	"cost": 0,
+	"power": "-",
+	"hits": "-",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Self",
+	"strengthen": -1,
+	"effect": "Increases all stats by 5"
+}

@@ -1,0 +1,13 @@
+{
+	"nameJP": "死んでくれる？",
+	"nameEN": "Die for Me!",
+	"attribute": "curse",
+	"cost": 45,
+	"power": "Special",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 5,
+	"effect": "Dark instant kill. Target: All enemies; Very high success"
+}

@@ -1,0 +1,13 @@
+{
+	"nameJP": "パトラ",
+	"nameEN": "Patra",
+	"attribute": "Recovery",
+	"cost": 5,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Ally",
+	"strengthen": 3,
+	"effect": "Removes Sleep/Panic/Bind ailments. Target: 1 ally"
+}

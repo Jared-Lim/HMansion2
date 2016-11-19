@@ -1,0 +1,13 @@
+{
+	"nameJP": "紫煙乱打",
+	"nameEN": "Purple Smoke",
+	"attribute": "Physical",
+	"cost": 14,
+	"power": "Medium",
+	"hits": "1-3",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Multi-enemies",
+	"strengthen": 8,
+	"effect": "1-3 medium Phys attacks. Inflicts Panic. Target: Multi-enemies"
+}

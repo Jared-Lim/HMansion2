@@ -1,0 +1,13 @@
+{
+	"nameJP": "ジオ",
+	"nameEN": "Zio",
+	"attribute": "Electric",
+	"cost": 5,
+	"power": "Weak",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 8,
+	"effect": "Weak Elec attack. Target: 1 enemy"
+}

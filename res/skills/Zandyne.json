@@ -1,0 +1,13 @@
+{
+	"nameJP": "ザンダイン",
+	"nameEN": "Zandyne",
+	"attribute": "Force",
+	"cost": 14,
+	"power": "Heavy",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 8,
+	"effect": "Heavy Force attack. Target: 1 enemy"
+}

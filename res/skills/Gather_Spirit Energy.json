@@ -1,0 +1,13 @@
+{
+	"nameJP": "霊魔集中",
+	"nameEN": "Gather Spirit Energy",
+	"attribute": "Support",
+	"cost": 25,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Self",
+	"strengthen": 3,
+	"effect": "-"
+}

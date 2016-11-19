@@ -1,0 +1,13 @@
+{
+	"nameJP": "呪殺無効",
+	"nameEN": "Null Dark",
+	"attribute": "Passive",
+	"cost": 0,
+	"power": "-",
+	"hits": "-",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Self",
+	"strengthen": -1,
+	"effect": "Nulls Dark attacks. Target: Self"
+}

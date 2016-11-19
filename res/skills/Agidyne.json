@@ -1,0 +1,13 @@
+{
+	"nameJP": "アギダイン",
+	"nameEN": "Agidyne",
+	"attribute": "Fire",
+	"cost": 14,
+	"power": "Heavy",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 8,
+	"effect": "Heavy Fire attack. Target: 1 enemy"
+}

@@ -1,0 +1,35 @@
+{
+	"tribe": "邪鬼",
+	"nameJP": "グレンデル",
+	"nameEN": "Grendel",
+	"level": 50,
+	"stats": {
+		"hp": 567,
+		"mp": 112,
+		"strength": 70,
+		"skill": 62,
+		"magic": 49,
+		"speed": 56,
+		"luck": 46
+	},
+	"affinity": {
+		"physical": "protect",
+		"gun": "protect",
+		"fire": "-",
+		"ice": "-",
+		"thunder": "-",
+		"shock": "-",
+		"banish": "weak",
+		"curse": "-",
+		"bind": "-",
+		"sleep": "-",
+		"cold": "-",
+		"confusion": "weak",
+		"poison": "-"
+	},
+	"skills": {
+		"モータルジハード": 0,
+		"チャージ": 0,
+		"三分の活泉": 53
+	}
+}

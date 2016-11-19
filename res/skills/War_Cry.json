@@ -1,0 +1,13 @@
+{
+	"nameJP": "雄叫び",
+	"nameEN": "War Cry",
+	"attribute": "Support",
+	"cost": 45,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 3,
+	"effect": "Decreases attack/defense. Target: All enemies"
+}

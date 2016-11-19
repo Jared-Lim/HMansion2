@@ -1,0 +1,13 @@
+{
+	"nameJP": "メディラマ",
+	"nameEN": "Mediarama",
+	"attribute": "Recovery",
+	"cost": 22,
+	"power": "Medium",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All allies",
+	"strengthen": 3,
+	"effect": "Greatly heals HP. Target: All allies"
+}

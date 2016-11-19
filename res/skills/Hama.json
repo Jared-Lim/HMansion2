@@ -1,0 +1,13 @@
+{
+	"nameJP": "ハマ",
+	"nameEN": "Hama",
+	"attribute": "Light",
+	"cost": 6,
+	"power": "Special",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 5,
+	"effect": "Light instant kill. Target: 1 enemy"
+}

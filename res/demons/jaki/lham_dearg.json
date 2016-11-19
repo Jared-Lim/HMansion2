@@ -1,0 +1,34 @@
+{
+	"tribe": "邪鬼",
+	"nameJP": "ラームジェルグ",
+	"nameEN": "Lham Dearg",
+	"level": 1,
+	"stats": {
+		"hp": 91,
+		"mp": 19,
+		"strength": 5,
+		"skill": 5,
+		"magic": 4,
+		"speed": 4,
+		"luck": 4
+	},
+	"affinity": {
+		"physical": "protect",
+		"gun": "protect",
+		"fire": "-",
+		"ice": "weak",
+		"thunder": "-",
+		"shock": "-",
+		"banish": "-",
+		"curse": "-",
+		"bind": "-",
+		"sleep": "-",
+		"cold": "-",
+		"confusion": "-",
+		"poison": "weak"
+	},
+	"skills": {
+		"グラムカット": 0,
+		"会心波": 3
+	}
+}

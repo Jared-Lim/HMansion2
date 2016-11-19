@@ -1,0 +1,13 @@
+{
+	"nameJP": "マハザンマ",
+	"nameEN": "Mazanma",
+	"attribute": "Force",
+	"cost": 20,
+	"power": "Medium",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 8,
+	"effect": "Medium Force attack. Target: All enemies"
+}

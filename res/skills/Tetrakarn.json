@@ -1,0 +1,13 @@
+{
+	"nameJP": "テトラカーン",
+	"nameEN": "Tetrakarn",
+	"attribute": "Support",
+	"cost": 50,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All allies",
+	"strengthen": 3,
+	"effect": "Repels Phys and Gun attacks for 1 turn. Target: All allies"
+}

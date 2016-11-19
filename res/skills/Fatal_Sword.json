@@ -1,0 +1,13 @@
+{
+	"nameJP": "絶命剣",
+	"nameEN": "Fatal Sword",
+	"attribute": "Physical",
+	"cost": 8,
+	"power": "Medium",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 8,
+	"effect": "Medium Phys attack. Target: 1 enemy"
+}

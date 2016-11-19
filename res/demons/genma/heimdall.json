@@ -1,0 +1,35 @@
+{
+	"tribe": "幻魔",
+	"nameJP": "ヘイムダル",
+	"nameEN": "Heimdall",
+	"level": 73,
+	"stats": {
+		"hp": 581,
+		"mp": 261,
+		"strength": 79,
+		"skill": 79,
+		"magic": 79,
+		"speed": 79,
+		"luck": 79
+	},
+	"affinity": {
+		"physical": "-",
+		"gun": "-",
+		"fire": "weak",
+		"ice": "protect",
+		"thunder": "-",
+		"shock": "-",
+		"banish": "null",
+		"curse": "protect",
+		"bind": "-",
+		"sleep": "-",
+		"cold": "-",
+		"confusion": "-",
+		"poison": "-"
+	},
+	"skills": {
+		"チャージ": 0,
+		"ジャッジメント": 0,
+		"冥界破": 74
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"nameJP": "デクンダ",
+	"nameEN": "Dekunda",
+	"attribute": "Support",
+	"cost": 10,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All allies",
+	"strengthen": 3,
+	"effect": "Removes status debuffs. Target: All allies"
+}

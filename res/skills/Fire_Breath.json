@@ -1,0 +1,13 @@
+{
+	"nameJP": "ファイアブレス",
+	"nameEN": "Fire Breath",
+	"attribute": "Fire",
+	"cost": 21,
+	"power": "Weak",
+	"hits": "1-4",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Multi-enemies",
+	"strengthen": 8,
+	"effect": "1-4 weak Fire attacks. Target: Multi-enemies"
+}

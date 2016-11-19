@@ -1,0 +1,13 @@
+{
+	"nameJP": "タルカジャ",
+	"nameEN": "Tarukaja",
+	"attribute": "Support",
+	"cost": 15,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All allies",
+	"strengthen": 3,
+	"effect": "Increases attack. Target: All allies"
+}

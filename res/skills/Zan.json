@@ -1,0 +1,13 @@
+{
+	"nameJP": "ザン",
+	"nameEN": "Zan",
+	"attribute": "Force",
+	"cost": 5,
+	"power": "Weak",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 8,
+	"effect": "Weak Force attack. Target: 1 enemy"
+}

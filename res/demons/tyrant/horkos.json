@@ -1,0 +1,35 @@
+{
+	"tribe": "魔王",
+	"nameJP": "オーカス",
+	"nameEN": "Horkos",
+	"level": 27,
+	"stats": {
+		"hp": 350,
+		"mp": 68,
+		"strength": 41,
+		"skill": 36,
+		"magic": 29,
+		"speed": 33,
+		"luck": 27
+	},
+	"affinity": {
+		"physical": "protect",
+		"gun": "-",
+		"fire": "weak",
+		"ice": "-",
+		"thunder": "-",
+		"shock": "-",
+		"banish": "-",
+		"curse": "protect",
+		"bind": "-",
+		"sleep": "weak",
+		"cold": "-",
+		"confusion": "-",
+		"poison": "-"
+	},
+	"skills": {
+		"メガトンプレス": 0,
+		"反撃": 28,
+		"食いしばり": 30
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"nameJP": "ラクカジャ",
+	"nameEN": "Rakukaja",
+	"attribute": "Support",
+	"cost": 15,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All allies",
+	"strengthen": 3,
+	"effect": "Increases defense. Target: All allies"
+}

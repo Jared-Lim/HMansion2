@@ -1,0 +1,13 @@
+{
+	"nameJP": "マハラギダイン",
+	"nameEN": "Maragidyne",
+	"attribute": "Fire",
+	"cost": 32,
+	"power": "Heavy",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 8,
+	"effect": "Heavy Fire attack. Target: All enemies"
+}

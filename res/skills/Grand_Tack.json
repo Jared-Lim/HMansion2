@@ -1,0 +1,13 @@
+{
+	"nameJP": "グランドタック",
+	"nameEN": "Grand Tack",
+	"attribute": "Gun",
+	"cost": 11,
+	"power": "Heavy",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 8,
+	"effect": "Heavy Gun attack. Target: 1 enemy"
+}

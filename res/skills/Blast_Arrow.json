@@ -1,0 +1,13 @@
+{
+	"nameJP": "ブラストアロー",
+	"nameEN": "Blast Arrow",
+	"attribute": "Gun",
+	"cost": 16,
+	"power": "Medium",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 8,
+	"effect": "Medium Gun attack. Target: All enemies"
+}

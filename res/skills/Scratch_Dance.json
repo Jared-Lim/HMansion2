@@ -1,0 +1,13 @@
+{
+	"nameJP": "スクラッチダンス",
+	"nameEN": "Scratch Dance",
+	"attribute": "Physical",
+	"cost": 9,
+	"power": "Weak",
+	"hits": "1-3",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Multi-enemies",
+	"strengthen": 8,
+	"effect": "1-3 weak Phys attacks. Target: Multi-enemies"
+}

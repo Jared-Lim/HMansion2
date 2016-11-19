@@ -1,0 +1,13 @@
+{
+	"nameJP": "ラスタキャンディ",
+	"nameEN": "Luster Candy",
+	"attribute": "Support",
+	"cost": 50,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All allies",
+	"strengthen": 3,
+	"effect": "Increases attack/defense/hit/evade rate. Target: All allies"
+}

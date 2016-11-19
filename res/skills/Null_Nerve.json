@@ -1,0 +1,13 @@
+{
+	"nameJP": "身体異常無効",
+	"nameEN": "Null Nerve",
+	"attribute": "Passive",
+	"cost": 0,
+	"power": "-",
+	"hits": "-",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Self",
+	"strengthen": -1,
+	"effect": "Null Poison/Bind/Sick. Target: Self"
+}

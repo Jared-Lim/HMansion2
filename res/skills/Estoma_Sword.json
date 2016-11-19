@@ -1,0 +1,13 @@
+{
+	"nameJP": "エストマソード",
+	"nameEN": "Estoma Sword",
+	"attribute": "Special",
+	"cost": 25,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "None",
+	"strengthen": -1,
+	"effect": "After using this, attack an enemy on the map to banish it if it's low-level"
+}

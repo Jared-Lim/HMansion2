@@ -1,0 +1,35 @@
+{
+	"tribe": "妖獣",
+	"nameJP": "カブラカン",
+	"nameEN": "Cabracan",
+	"level": 59,
+	"stats": {
+		"hp": 483,
+		"mp": 216,
+		"strength": 65,
+		"skill": 65,
+		"magic": 65,
+		"speed": 65,
+		"luck": 65
+	},
+	"affinity": {
+		"physical": "-",
+		"gun": "-",
+		"fire": "null",
+		"ice": "-",
+		"thunder": "-",
+		"shock": "weak",
+		"banish": "-",
+		"curse": "-",
+		"bind": "-",
+		"sleep": "-",
+		"cold": "-",
+		"confusion": "-",
+		"poison": "-"
+	},
+	"skills": {
+		"メディラマ": 0,
+		"フォッグブレス": 0,
+		"メガトンプレス": 60
+	}
+}

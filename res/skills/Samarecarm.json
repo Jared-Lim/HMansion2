@@ -1,0 +1,13 @@
+{
+	"nameJP": "サマリカーム",
+	"nameEN": "Samarecarm",
+	"attribute": "heal",
+	"cost": 40,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 3,
+	"effect": "Revive from KO with full HP. Target: 1 ally"
+}

@@ -1,0 +1,13 @@
+{
+	"nameJP": "エナジードレイン",
+	"nameEN": "Energy Drain",
+	"attribute": "Almighty",
+	"cost": 10,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 5,
+	"effect": "Almighty attack that drains the enemy's HP/MP. Target: 1 enemy"
+}

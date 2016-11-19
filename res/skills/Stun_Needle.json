@@ -1,0 +1,13 @@
+{
+	"nameJP": "麻痺針",
+	"nameEN": "Stun Needle",
+	"attribute": "Gun",
+	"cost": 11,
+	"power": "Weak",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 8,
+	"effect": "Weak Gun attack. Inflicts Bind. Target: 1 enemy"
+}

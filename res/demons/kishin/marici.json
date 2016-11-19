@@ -1,0 +1,35 @@
+{
+	"tribe": "鬼神",
+	"nameJP": "マリシテン",
+	"nameEN": "Marici",
+	"level": 70,
+	"stats": {
+		"hp": 560,
+		"mp": 252,
+		"strength": 76,
+		"skill": 76,
+		"magic": 76,
+		"speed": 76,
+		"luck": 76
+	},
+	"affinity": {
+		"physical": "-",
+		"gun": "-",
+		"fire": "null",
+		"ice": "-",
+		"thunder": "-",
+		"shock": "-",
+		"banish": "null",
+		"curse": "protect",
+		"bind": "-",
+		"sleep": "-",
+		"cold": "-",
+		"confusion": "-",
+		"poison": "-"
+	},
+	"skills": {
+		"アギダイン": 0,
+		"刹那五月雨撃ち": 0,
+		"火炎反射": 71
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"tribe": "聖獣",
+	"nameJP": "ヘケト",
+	"nameEN": "Hequet",
+	"level": 3,
+	"stats": {
+		"hp": 91,
+		"mp": 40,
+		"strength": 9,
+		"skill": 9,
+		"magic": 9,
+		"speed": 9,
+		"luck": 9
+	},
+	"affinity": {
+		"physical": "-",
+		"gun": "-",
+		"fire": "protect",
+		"ice": "-",
+		"thunder": "-",
+		"shock": "weak",
+		"banish": "-",
+		"curse": "-",
+		"bind": "-",
+		"sleep": "-",
+		"cold": "-",
+		"confusion": "-",
+		"poison": "null"
+	},
+	"skills": {
+		"道具の知恵・癒": 0,
+		"ジオ": 0,
+		"ポズムディ": 4
+	},
+	"mutate": {
+		"level": 11,
+		"target": "ズェラロンズ"
+	}
+}

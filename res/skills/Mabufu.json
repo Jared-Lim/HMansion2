@@ -1,0 +1,13 @@
+{
+	"nameJP": "マハブフ",
+	"nameEN": "Mabufu",
+	"attribute": "Ice",
+	"cost": 11,
+	"power": "Weak",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 8,
+	"effect": "Weak Ice attack. Target: All enemies"
+}

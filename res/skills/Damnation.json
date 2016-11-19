@@ -1,0 +1,13 @@
+{
+	"nameJP": "ダムネイション",
+	"nameEN": "Damnation",
+	"attribute": "Almighty",
+	"cost": 65,
+	"power": "Heavy",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 8,
+	"effect": "-"
+}

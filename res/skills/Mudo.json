@@ -1,0 +1,13 @@
+{
+	"nameJP": "ムド",
+	"nameEN": "Mudo",
+	"attribute": "Dark",
+	"cost": 6,
+	"power": "Special",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 5,
+	"effect": "Dark instant kill. Target: 1 enemy"
+}

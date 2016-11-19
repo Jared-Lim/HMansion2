@@ -1,0 +1,13 @@
+{
+	"nameJP": "輝ける烙印",
+	"nameEN": "Shining Seal",
+	"attribute": "Almighty",
+	"cost": 75,
+	"power": "Heavy",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 8,
+	"effect": "-"
+}

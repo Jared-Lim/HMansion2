@@ -1,0 +1,35 @@
+{
+	"tribe": "龍神",
+	"nameJP": "イルルヤンカシュ",
+	"nameEN": "Illuyanka",
+	"level": 51,
+	"stats": {
+		"hp": 427,
+		"mp": 192,
+		"strength": 57,
+		"skill": 57,
+		"magic": 57,
+		"speed": 57,
+		"luck": 57
+	},
+	"affinity": {
+		"physical": "-",
+		"gun": "-",
+		"fire": "-",
+		"ice": "protect",
+		"thunder": "-",
+		"shock": "protect",
+		"banish": "-",
+		"curse": "-",
+		"bind": "weak",
+		"sleep": "weak",
+		"cold": "-",
+		"confusion": "-",
+		"poison": "-"
+	},
+	"skills": {
+		"ブフダイン": 0,
+		"龍の反応": 0,
+		"メガトンプレス": 52
+	}
+}

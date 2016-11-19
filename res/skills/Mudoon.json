@@ -1,0 +1,13 @@
+{
+	"nameJP": "ムドオン",
+	"nameEN": "Mudoon",
+	"attribute": "Dark",
+	"cost": 10,
+	"power": "Special",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 5,
+	"effect": "Dark instant kill. Target: 1 enemy; High success"
+}

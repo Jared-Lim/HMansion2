@@ -1,0 +1,35 @@
+{
+	"tribe": "邪龍",
+	"nameJP": "ハクジョウシ",
+	"nameEN": "Bai Suzhen",
+	"level": 23,
+	"stats": {
+		"hp": 155,
+		"mp": 149,
+		"strength": 26,
+		"skill": 28,
+		"magic": 36,
+		"speed": 24,
+		"luck": 33
+	},
+	"affinity": {
+		"physical": "-",
+		"gun": "-",
+		"fire": "weak",
+		"ice": "null",
+		"thunder": "-",
+		"shock": "-",
+		"banish": "-",
+		"curse": "-",
+		"bind": "-",
+		"sleep": "-",
+		"cold": "-",
+		"confusion": "-",
+		"poison": "weak"
+	},
+	"skills": {
+		"ジオンガ": 0,
+		"バインドクロー": 0,
+		"メパトラ": 25
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"nameJP": "烙印の一撃",
+	"nameEN": "Stigma Attack",
+	"attribute": "Physical",
+	"cost": 20,
+	"power": "Heavy",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 8,
+	"effect": "-"
+}

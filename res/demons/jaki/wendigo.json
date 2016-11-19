@@ -1,0 +1,34 @@
+{
+	"tribe": "邪鬼",
+	"nameJP": "ウェンディゴ",
+	"nameEN": "Wendigo",
+	"level": 25,
+	"stats": {
+		"hp": 331,
+		"mp": 66,
+		"strength": 38,
+		"skill": 34,
+		"magic": 27,
+		"speed": 31,
+		"luck": 26
+	},
+	"affinity": {
+		"physical": "-",
+		"gun": "-",
+		"fire": "weak",
+		"ice": "reflect",
+		"thunder": "-",
+		"shock": "-",
+		"banish": "-",
+		"curse": "-",
+		"bind": "-",
+		"sleep": "-",
+		"cold": "protect",
+		"confusion": "-",
+		"poison": "-"
+	},
+	"skills": {
+		"マハブフ": 0,
+		"毒ガスブレス": 26
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"nameJP": "デカジャ",
+	"nameEN": "Dekaja",
+	"attribute": "Support",
+	"cost": 10,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 3,
+	"effect": "Removes status buffs. Target: All enemies"
+}

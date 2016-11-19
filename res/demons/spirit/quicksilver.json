@@ -1,0 +1,34 @@
+{
+	"tribe": "悪霊",
+	"nameJP": "クイックシルバー",
+	"nameEN": "Quicksilver",
+	"level": 19,
+	"stats": {
+		"hp": 203,
+		"mp": 90,
+		"strength": 25,
+		"skill": 23,
+		"magic": 23,
+		"speed": 30,
+		"luck": 25
+	},
+	"affinity": {
+		"physical": "-",
+		"gun": "null",
+		"fire": "-",
+		"ice": "-",
+		"thunder": "reflect",
+		"shock": "weak",
+		"banish": "weak",
+		"curse": "-",
+		"bind": "protect",
+		"sleep": "-",
+		"cold": "-",
+		"confusion": "-",
+		"poison": "-"
+	},
+	"skills": {
+		"マハジオ": 0,
+		"パニックマジック": 20
+	}
+}

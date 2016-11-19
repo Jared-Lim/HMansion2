@@ -1,0 +1,13 @@
+{
+	"nameJP": "メディアラハン",
+	"nameEN": "Mediarahan",
+	"attribute": "Recovery",
+	"cost": 40,
+	"power": "Heavy",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All allies",
+	"strengthen": 3,
+	"effect": "Fully heals HP. Target: All allies"
+}

@@ -1,0 +1,35 @@
+{
+	"tribe": "死神",
+	"nameJP": "ゲーデ",
+	"nameEN": "Guedhe",
+	"level": 63,
+	"stats": {
+		"hp": 511,
+		"mp": 229,
+		"strength": 69,
+		"skill": 63,
+		"magic": 63,
+		"speed": 83,
+		"luck": 69
+	},
+	"affinity": {
+		"physical": "-",
+		"gun": "-",
+		"fire": "-",
+		"ice": "-",
+		"thunder": "-",
+		"shock": "-",
+		"banish": "protect",
+		"curse": "null",
+		"bind": "-",
+		"sleep": "-",
+		"cold": "-",
+		"confusion": "-",
+		"poison": "-"
+	},
+	"skills": {
+		"ムドオン": 0,
+		"リカーム": 0,
+		"メギドラ": 64
+	}
+}

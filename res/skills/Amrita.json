@@ -1,0 +1,13 @@
+{
+	"nameJP": "アムリタ",
+	"nameEN": "Amrita",
+	"attribute": "Recovery",
+	"cost": 20,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Ally",
+	"strengthen": 3,
+	"effect": "Removes all ailments. Target: 1 ally"
+}

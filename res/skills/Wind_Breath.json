@@ -1,0 +1,13 @@
+{
+	"nameJP": "ウィンドブレス",
+	"nameEN": "Wind Breath",
+	"attribute": "Force",
+	"cost": 21,
+	"power": "Weak",
+	"hits": "1-4",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Multi-enemies",
+	"strengthen": 8,
+	"effect": "1-4 weak Force attacks. Target: Multi-enemies"
+}

@@ -1,0 +1,13 @@
+{
+	"nameJP": "夢見針",
+	"nameEN": "Dream Needle",
+	"attribute": "Gun",
+	"cost": 9,
+	"power": "Weak",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 8,
+	"effect": "Weak Gun attack. Inflicts Sleep. Target: 1 enemy"
+}

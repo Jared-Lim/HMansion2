@@ -1,0 +1,13 @@
+{
+	"nameJP": "メガトンプレス",
+	"nameEN": "Megaton Press",
+	"attribute": "Physical",
+	"cost": 17,
+	"power": "Medium",
+	"hits": "1",
+	"kuli": "High",
+	"hit": "Low",
+	"target": "All enemies",
+	"strengthen": 8,
+	"effect": "Weak Phys attack. High critical rate/low hit rate. Target: All enemies"
+}

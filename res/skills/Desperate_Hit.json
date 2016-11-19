@@ -1,0 +1,13 @@
+{
+	"nameJP": "うちまくり",
+	"nameEN": "Desperate Hit",
+	"attribute": "Almighty",
+	"cost": 40,
+	"power": "Weak",
+	"hits": "1-5",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Multi-enemies",
+	"strengthen": 8,
+	"effect": "1-5 weak Almighty attacks. Target: Multi-enemies"
+}

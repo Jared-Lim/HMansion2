@@ -1,0 +1,13 @@
+{
+	"nameJP": "ジオダイン",
+	"nameEN": "Ziodyne",
+	"attribute": "Electric",
+	"cost": 14,
+	"power": "Heavy",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 8,
+	"effect": "Heavy Elec attack. Target: 1 enemy"
+}

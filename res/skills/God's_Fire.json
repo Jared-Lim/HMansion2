@@ -1,0 +1,13 @@
+{
+	"nameJP": "神の業火",
+	"nameEN": "God's Fire",
+	"attribute": "Fire",
+	"cost": 50,
+	"power": "Heavy",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 8,
+	"effect": "-"
+}

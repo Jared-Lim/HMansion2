@@ -1,0 +1,13 @@
+{
+	"nameJP": "吸血",
+	"nameEN": "Life Drain",
+	"attribute": "Almighty",
+	"cost": 5,
+	"power": "-",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": 5,
+	"effect": "Almighty attack that drains the enemy's HP. Target: 1 enemy"
+}

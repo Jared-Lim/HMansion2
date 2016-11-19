@@ -1,0 +1,36 @@
+{
+	"tribe": "破壊神",
+	"nameJP": "セイテンタイセイ",
+	"nameEN": "Wu Kong",
+	"level": 57,
+	"stats": {
+		"hp": 634,
+		"mp": 126,
+		"strength": 78,
+		"skill": 69,
+		"magic": 54,
+		"speed": 63,
+		"luck": 51
+	},
+	"affinity": {
+		"physical": "protect",
+		"gun": "null",
+		"fire": "protect",
+		"ice": "weak",
+		"thunder": "weak",
+		"shock": "-",
+		"banish": "null",
+		"curse": "-",
+		"bind": "-",
+		"sleep": "-",
+		"cold": "-",
+		"confusion": "-",
+		"poison": "-"
+	},
+	"skills": {
+		"モータルジハード": 0,
+		"挑発": 0,
+		"物理無効": 58,
+		"電撃耐性": 60
+	}
+}

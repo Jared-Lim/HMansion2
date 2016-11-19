@@ -1,0 +1,13 @@
+{
+	"nameJP": "キャロルヒット",
+	"nameEN": "Carrol Hit",
+	"attribute": "physical",
+	"cost": 15,
+	"power": "low",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Enemy",
+	"strengthen": -1,
+	"effect": "lost child"
+}

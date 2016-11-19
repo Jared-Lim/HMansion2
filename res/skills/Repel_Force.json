@@ -1,0 +1,13 @@
+{
+	"nameJP": "衝撃反射",
+	"nameEN": "Repel Force",
+	"attribute": "Passive",
+	"cost": 0,
+	"power": "-",
+	"hits": "-",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Self",
+	"strengthen": -1,
+	"effect": "Repels Force attacks. Target: Self"
+}

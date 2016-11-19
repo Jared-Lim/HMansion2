@@ -1,0 +1,13 @@
+{
+	"nameJP": "銃プレロマ",
+	"nameEN": "Gun Pleroma",
+	"attribute": "Passive",
+	"cost": 0,
+	"power": "-",
+	"hits": "-",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Self",
+	"strengthen": -1,
+	"effect": "Strengthens Gun attacks (+25%). Target: Self"
+}

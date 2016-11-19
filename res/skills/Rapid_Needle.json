@@ -1,0 +1,13 @@
+{
+	"nameJP": "ラピッドニードル",
+	"nameEN": "Rapid Needle",
+	"attribute": "Gun",
+	"cost": 9,
+	"power": "Weak",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 8,
+	"effect": "Weak Gun attack. Target: All enemies"
+}

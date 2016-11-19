@@ -1,0 +1,35 @@
+{
+	"tribe": "邪龍",
+	"nameJP": "チョトンダ",
+	"nameEN": "Zhu Tun She",
+	"level": 9,
+	"stats": {
+		"hp": 180,
+		"mp": 35,
+		"strength": 15,
+		"skill": 15,
+		"magic": 15,
+		"speed": 15,
+		"luck": 15
+	},
+	"affinity": {
+		"physical": "-",
+		"gun": "null",
+		"fire": "-",
+		"ice": "null",
+		"thunder": "-",
+		"shock": "-",
+		"banish": "weak",
+		"curse": "-",
+		"bind": "-",
+		"sleep": "-",
+		"cold": "-",
+		"confusion": "-",
+		"poison": "-"
+	},
+	"skills": {
+		"突撃": 0,
+		"ラクンダ": 0,
+		"勝利の小チャクラ": 11
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"nameJP": "悪化",
+	"nameEN": "Death's Door",
+	"attribute": "Almighty",
+	"cost": 10,
+	"power": "Weak",
+	"hits": "1",
+	"kuli": "-",
+	"hit": "-",
+	"target": "All enemies",
+	"strengthen": 8,
+	"effect": "Weak Almighty attack that reduces HP to 1 if target is sick. Target: All enemies"
+}

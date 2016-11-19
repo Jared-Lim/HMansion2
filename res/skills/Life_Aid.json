@@ -1,0 +1,13 @@
+{
+	"nameJP": "勝利の息吹",
+	"nameEN": "Life Aid",
+	"attribute": "Passive",
+	"cost": 0,
+	"power": "-",
+	"hits": "-",
+	"kuli": "-",
+	"hit": "-",
+	"target": "Self",
+	"strengthen": -1,
+	"effect": "Recover some HP after a battle"
+}

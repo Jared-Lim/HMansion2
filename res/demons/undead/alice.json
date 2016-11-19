@@ -1,0 +1,40 @@
+{
+	"tribe": "屍鬼",
+	"nameJP": "アリス",
+	"nameEN": "Alice",
+	"level": 49,
+	"stats": {
+		"hp": 277,
+		"mp": 269,
+		"strength": 48,
+		"skill": 53,
+		"magic": 68,
+		"speed": 45,
+		"luck": 63
+	},
+	"affinity": {
+		"physical": "protect",
+		"gun": "reflect",
+		"fire": "-",
+		"ice": "-",
+		"thunder": "-",
+		"shock": "-",
+		"banish": "protect",
+		"curse": "null",
+		"bind": "null",
+		"sleep": "null",
+		"cold": "null",
+		"confusion": "null",
+		"poison": "null"
+	},
+	"skills": {
+		"死んでくれる？": 0,
+		"夢見針": 0,
+		"エナジードレイン": 0,
+		"デクンダ": 50,
+		"ランダマイザ": 51
+	},
+	"fusions": [
+		["ポルターガイスト", "ナジャ", "ヘアリージャック", "ハイピクシー"]
+	]
+}

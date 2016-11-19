@@ -1,0 +1,35 @@
+{
+	"tribe": "妖鬼",
+	"nameJP": "オニ",
+	"nameEN": "Oni",
+	"level": 13,
+	"stats": {
+		"hp": 218,
+		"mp": 43,
+		"strength": 23,
+		"skill": 21,
+		"magic": 17,
+		"speed": 19,
+		"luck": 16
+	},
+	"affinity": {
+		"physical": "-",
+		"gun": "-",
+		"fire": "-",
+		"ice": "-",
+		"thunder": "-",
+		"shock": "-",
+		"banish": "-",
+		"curse": "-",
+		"bind": "weak",
+		"sleep": "weak",
+		"cold": "-",
+		"confusion": "weak",
+		"poison": "-"
+	},
+	"skills": {
+		"会心波": 0,
+		"挑発": 0,
+		"牙折り": 14
+	}
+}
