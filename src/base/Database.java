@@ -48,13 +48,13 @@ public class Database {
 	public void makeDemonsTable(Connection conn){
 		
 	}
-	public void parseFolder(Connection conn,String skillsFold){
+	public void parseSkillsFolder(Connection conn){
 		Gson gson = new Gson();
-		File directory = new File(skillsFold);
+		File directory = new File("res/skills/");
 		String[] files = directory.list();
 		int count = 1;
 		for(String f:files){
-			String g = skillsFold+f;
+			String g ="res/skills/"+f;
 			try(Reader reader = new FileReader(g)){
 				Skill skill = gson.fromJson(reader, Skill.class);
 				skill.setID(count);
