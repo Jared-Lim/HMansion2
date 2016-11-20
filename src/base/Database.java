@@ -48,7 +48,7 @@ public class Database {
 	public void makeDemonsTable(Connection conn){
 		
 	}
-	public void parseSkillsFolder(Connection conn,String skillsFold){
+	public void parseFolder(Connection conn,String skillsFold){
 		Gson gson = new Gson();
 		File directory = new File(skillsFold);
 		String[] files = directory.list();

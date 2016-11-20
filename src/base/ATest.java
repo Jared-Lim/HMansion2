@@ -8,7 +8,7 @@ public class ATest {
 		Database db = new Database();
 		try(Connection conn = db.connectDB("heretic.db")){
 			db.makeSkillsTable(conn);
-			db.parseSkillsFolder(conn, "res/skills/");
+			db.parseFolder(conn, "res/skills/");
 		}catch(SQLException e){
 			System.out.println(e.getMessage());
 		}
