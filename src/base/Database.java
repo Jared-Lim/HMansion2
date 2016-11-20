@@ -38,13 +38,15 @@ public class Database {
 				"targ 	STRING,"+
 				"str 	INT,"+
 				"effect STRING)";
-		
 		try(PreparedStatement pstate = conn.prepareStatement(sql)){
 			pstate.executeUpdate();
 			System.out.println("Created skills table");
 		}catch(SQLException e){
 			System.out.println(e.getMessage());;
 		}
+	}
+	public void makeDemonsTable(Connection conn){
+		
 	}
 	public void parseSkillsFolder(Connection conn,String skillsFold){
 		Gson gson = new Gson();
@@ -82,7 +84,7 @@ public class Database {
 			pstate.executeUpdate();
 			System.out.println("Inserted "+skill.getNEN());
 		}catch(SQLException e){
-			System.out.println(e.getMessage());;
+			System.out.println(e.getMessage()+" -> "+skill.getNEN());;
 		}
 	}
 }
