@@ -5,11 +5,11 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class Database {
+public class Database {	
 	public Connection connectDB(String db){
 		Connection conn = null;
 		try {
-			conn = DriverManager.getConnection(db);
+			conn = DriverManager.getConnection("jdbc:sqlite:"+db);
 			System.out.println("Connected to database");
 		} catch (SQLException e) {
 			System.out.println(e.getMessage());
