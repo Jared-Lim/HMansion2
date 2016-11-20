@@ -1,9 +1,17 @@
 package base;
 
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.Reader;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+
+import com.google.gson.Gson;
+
+import skill.Skill;
 
 public class Database {	
 	public Connection connectDB(String db){
@@ -39,5 +47,44 @@ public class Database {
 			System.out.println(e.getMessage());;
 		}
 	}
-	
+	public static void parseSkillsFolder(Connection conn,String skillsFold){
+		Gson gson = new Gson();
+		File directory = new File(skillsFold);
+		String[] files = directory.list();
+		int count = 1;
+		for(String f:files){
+			String g = skillsFold+f;
+			try(Reader reader = new FileReader(g)){
+				Skill skill = gson.fromJson(reader, Skill.class);
+				skill.setID(count);
+				count++;
+				insertSkill(conn,skill);
+				System.out.println("Inserted "+skill.getNEN());
+			} catch (IOException e) {
+				System.out.println(e.getMessage());
+			}
+		}
+	}
+
+	public static void insertSkill(Connection conn,Skill skill){
+		String sql = "INSERT INTO skills (ID,nameJP,nameEN,attr,cost,power,hits,kuli,hit,targ,str,effect) "+
+				"VALUES (?,?,?,?,?,?,?,?,?,?,?,?)";
+		try(PreparedStatement pstate = conn.prepareStatement(sql)){
+			pstate.setInt(1, skill.getID());
+			pstate.setString(2, skill.getNJP());
+			pstate.setString(3, skill.getNEN());
+			pstate.setString(4, skill.getATT());
+			pstate.setInt(5, skill.getCST());
+			pstate.setString(6, skill.getPWR());
+			pstate.setString(7, skill.getHTS());
+			pstate.setString(8, skill.getCRI());
+			pstate.setString(9, skill.getACC());
+			pstate.setString(10, skill.getTAR());
+			pstate.setInt(11, skill.getSTR());
+			pstate.setString(12, skill.getEFF());
+			pstate.executeUpdate();
+		}catch(SQLException e){
+			System.out.println(e.getMessage());;
+		}
+	}
 }

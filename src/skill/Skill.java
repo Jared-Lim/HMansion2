@@ -1,7 +1,7 @@
 package skill;
 
 public class Skill {
-	private int ID;				//skill ID for table purposes
+	private int ID = 0;				//skill ID for table purposes
 	private String nameJP;		//japanese name for mapping
 	private String nameEN;		//english name
 	private String attribute;	//element of skill
@@ -13,6 +13,12 @@ public class Skill {
 	private String target;		//what skill targets
 	private int strengthen;		//how many times skill can be EMPOWERED
 	private String effect;		//description of skill
+	
+	public void setID(int ID){
+		if(ID>0){
+			this.ID=ID;
+		}
+	}
 	
 	@Override
 	public String toString(){
