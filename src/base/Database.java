@@ -24,7 +24,6 @@ public class Database {
 		}
 		return conn;
 	}
-	
 	public void makeSkillsTable(Connection conn){
 		String sql ="CREATE TABLE skills ("+
 				"ID 	INT PRIMARY KEY NOT NULL,"+
@@ -47,7 +46,7 @@ public class Database {
 			System.out.println(e.getMessage());;
 		}
 	}
-	public static void parseSkillsFolder(Connection conn,String skillsFold){
+	public void parseSkillsFolder(Connection conn,String skillsFold){
 		Gson gson = new Gson();
 		File directory = new File(skillsFold);
 		String[] files = directory.list();
@@ -59,14 +58,12 @@ public class Database {
 				skill.setID(count);
 				count++;
 				insertSkill(conn,skill);
-				System.out.println("Inserted "+skill.getNEN());
 			} catch (IOException e) {
 				System.out.println(e.getMessage());
 			}
 		}
 	}
-
-	public static void insertSkill(Connection conn,Skill skill){
+	public void insertSkill(Connection conn,Skill skill){
 		String sql = "INSERT INTO skills (ID,nameJP,nameEN,attr,cost,power,hits,kuli,hit,targ,str,effect) "+
 				"VALUES (?,?,?,?,?,?,?,?,?,?,?,?)";
 		try(PreparedStatement pstate = conn.prepareStatement(sql)){
@@ -83,6 +80,7 @@ public class Database {
 			pstate.setInt(11, skill.getSTR());
 			pstate.setString(12, skill.getEFF());
 			pstate.executeUpdate();
+			System.out.println("Inserted "+skill.getNEN());
 		}catch(SQLException e){
 			System.out.println(e.getMessage());;
 		}
