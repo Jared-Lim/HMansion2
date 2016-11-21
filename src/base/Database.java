@@ -115,7 +115,7 @@ public class Database {
 			for(String g:innerFiles){
 				try(Reader reader = new FileReader(demonDir+"/"+g)){
 					Demon demon = gson.fromJson(reader, Demon.class);
-					System.out.println(demon.getNameEN());
+					insertDemonTranslate(demon);
 				} catch (IOException e) {
 					System.out.println(e.getMessage());
 				}
