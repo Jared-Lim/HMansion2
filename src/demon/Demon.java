@@ -55,7 +55,7 @@ public class Demon {
 	public int getLevel(){return level;}
 	public Stats getStats(){return stats;}
 	public Affinities getAff(){return affinity;}
-	public String getSkills(){return skills.toString();}
+	public Skills getSkills(){return skills;}
     public String getFusion(){return fusionCheck(fusions);}
     public String getMutate(){return mutateCheck(mutate);}
 }
