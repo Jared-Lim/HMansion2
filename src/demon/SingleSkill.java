@@ -12,6 +12,6 @@ public class SingleSkill {
 	
 	@Override
 	public String toString(){
-		return name+"--"+level;
+		return name+" ["+level+"]";
 	}
 }
