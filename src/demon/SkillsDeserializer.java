@@ -18,17 +18,17 @@ public class SkillsDeserializer implements JsonDeserializer<Skills>{
 			JsonDeserializationContext arg2) throws JsonParseException {
 		JsonObject obj = arg0.getAsJsonObject();
 		
-		List<SingleSkill> Skillz = new ArrayList<>();
+		List<SingleSkill> SkillsList = new ArrayList<>();
 		
 		for(Map.Entry<String, JsonElement> entry : obj.entrySet()){
 			SingleSkill skl = new SingleSkill();
 			skl.setName(entry.getKey());
 			skl.setLevel(entry.getValue().getAsInt());
-			Skillz.add(skl);
+			SkillsList.add(skl);
 		}
 		
 		Skills skills = new Skills();
-		skills.setSkills(Skillz);
+		skills.setSkills(SkillsList);
 		
 		return skills;
 	}
