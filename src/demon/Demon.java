@@ -1,5 +1,12 @@
 package demon;
 
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.Reader;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
 public class Demon {
 	private String tribe;
 	private String nameJP;
@@ -10,6 +17,27 @@ public class Demon {
 	private Skills skills;
 	private String[][] fusions=null;
 	private Mutate mutate=null;
+	
+	public Demon(String fileLocation){
+		GsonBuilder builder = new GsonBuilder();
+		builder.registerTypeAdapter(Skills.class, new SkillsDeserializer());
+		Gson gson = builder.create();
+		
+		try(Reader reader = new FileReader(fileLocation)){
+			Demon dmn = gson.fromJson(reader, Demon.class);
+			this.tribe = dmn.tribe;
+			this.nameJP = dmn.nameJP;
+			this.nameEN = dmn.nameEN;
+			this.level = dmn.level;
+			this.stats = dmn.stats;
+			this.affinity = dmn.affinity;
+			this.skills = dmn.skills;
+			this.fusions = dmn.fusions;
+			this.mutate = dmn.mutate;
+	    }catch(IOException e){
+	    	System.out.println(e.getMessage());
+	    }
+	}
 	
 	public String toString(){
 		return    "--tribe: "+tribe+
