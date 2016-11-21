@@ -11,7 +11,7 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParseException;
 
-class SkillsDeserializer implements JsonDeserializer<Skills>{
+public class SkillsDeserializer implements JsonDeserializer<Skills>{
 
 	@Override
 	public Skills deserialize(JsonElement arg0, Type arg1, 
