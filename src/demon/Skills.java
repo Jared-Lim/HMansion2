@@ -6,6 +6,7 @@ public class Skills {
 	private List<SingleSkill> ListOfSkills;
 	
 	public void setSkills(List<SingleSkill> skills){ListOfSkills = skills;}	
+	public SingleSkill getSkill(int index){return ListOfSkills.get(index);}
 	
 	@Override
 	public String toString(){
