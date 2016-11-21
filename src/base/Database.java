@@ -5,17 +5,18 @@ import java.sql.*;
 import com.google.gson.Gson;
 import skill.Skill;
 
-public class Database {	
-	public Connection connectDB(String db){
-		Connection conn = null;
-		try {
-			conn = DriverManager.getConnection("jdbc:sqlite:"+db);
-		} catch (SQLException e) {
+public class Database {
+	private Connection conn = null;
+	
+	public Database(String dbloc){
+		try{
+			this.conn = DriverManager.getConnection("jdbc:sqlite:"+dbloc);
+		}catch(SQLException e){
 			System.out.println(e.getMessage());
 		}
-		return conn;
 	}
-	public void makeSkillsTable(Connection conn){
+
+	public void makeSkillsTable(){
 		String sql ="CREATE TABLE skills ("+
 				"ID 	INT PRIMARY KEY NOT NULL,"+
 				"nameJP STRING,"+
@@ -36,10 +37,10 @@ public class Database {
 			System.out.println(e.getMessage());;
 		}
 	}
-	public void makeDemonsTable(Connection conn){
+	public void makeDemonsTable(){
 		
 	}
-	public void parseSkillsFolder(Connection conn){
+	public void parseSkillsFolder(){
 		Gson gson = new Gson();
 		File directory = new File("res/skills/");
 		String[] files = directory.list();
