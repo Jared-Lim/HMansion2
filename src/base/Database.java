@@ -10,7 +10,6 @@ public class Database {
 		Connection conn = null;
 		try {
 			conn = DriverManager.getConnection("jdbc:sqlite:"+db);
-			System.out.println("Connected to database");
 		} catch (SQLException e) {
 			System.out.println(e.getMessage());
 		}
@@ -79,4 +78,7 @@ public class Database {
 			System.out.println(e.getMessage()+" -> "+skill.getNEN());;
 		}
 	}
+	
+	
+	
 }
