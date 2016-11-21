@@ -130,7 +130,7 @@ public class Database {
 			pstate.executeUpdate();
 			System.out.println("Inserted "+demon.getNameEN());
 		}catch (SQLException e){
-			System.out.println(e.getMessage());
+			System.out.println(e.getMessage()+" "+demon.getNameEN());
 		}
 	}
 	
