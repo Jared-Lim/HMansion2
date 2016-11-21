@@ -57,6 +57,20 @@ public class Database {
 			System.out.println(e.getMessage());;
 		}
 	}
+	public void makeDemonsTable(){
+		String sql = "CREATE TABLE demons ("+
+					"tribe STRING,"+
+					"nameJP STRING UNIQUE,"+
+					"nameEN STRING UNIQUE,"+
+					"level INT,"+
+					"stats STRING)";
+		try(PreparedStatement pstate = conn.prepareStatement(sql)){
+			pstate.executeUpdate();
+			System.out.println("Created demons table");
+		}catch(SQLException e){
+			System.out.println(e.getMessage());;
+		}
+	}
 	public void parseSkillsFolder(){
 		Gson gson = new Gson();
 		File directory = new File("res/skills/");
@@ -134,4 +148,44 @@ public class Database {
 		}
 	}
 	
+	public void parseDemonsFolder(){
+		Gson gson = new Gson();
+		File directory = new File("res/demons/");
+		String[] files = directory.list();
+		for(String f:files){
+			String demonDir = "res/demons/"+f;
+			File innerDirectory = new File(demonDir);
+			String[] innerFiles = innerDirectory.list();
+			for(String g:innerFiles){
+				try(Reader reader = new FileReader(demonDir+"/"+g)){
+					Demon demon = gson.fromJson(reader, Demon.class);
+					insertDemonTranslate(demon);
+				} catch (IOException e) {
+					System.out.println(e.getMessage());
+				}
+			}
+		}
+	}
+	public void insertDemon(Demon demon){
+		
+	}
+	
+	public String translateDemon(String nameJP){
+		String sql = "SELECT nameEN FROM translate WHERE nameJP = ?";
+		try(PreparedStatement pstate = conn.prepareStatement(sql)){
+			pstate.setString(1, nameJP);
+	    	ResultSet rset = pstate.executeQuery();
+			return rset.getString("nameEN");
+		}catch(SQLException e){
+			System.out.println(e.getMessage());
+			return nameJP;
+		}
+	}
+	public void close(){
+		try {
+			this.conn.close();
+		} catch (SQLException e) {
+			System.out.println(e.getMessage());
+		}
+	}
 }

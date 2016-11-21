@@ -7,6 +7,8 @@ import java.io.Reader;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
+import base.Database;
+
 public class Demon {
 	private String tribe;
 	private String nameJP;
@@ -56,11 +58,12 @@ public class Demon {
 				"\n--FUS: "+fusionCheck(fusions)+
 				"\n--MUT: "+mutateCheck(mutate);
 	}
-	public String fusionCheck(String[][] fuse){
+	private String fusionCheck(String[][] fuse){
 		if(fuse!=null){
+			Database db = new Database("heretic.db");
 			StringBuilder str = new StringBuilder();
 			for(int i=0;i<fuse[0].length;i++){
-				str.append(fuse[0][i]);
+				str.append(db.translateDemon(fuse[0][i]));
 				if(i + 1 < fuse[0].length){
 					str.append(", ");
 				}
@@ -69,7 +72,7 @@ public class Demon {
 		}
 		else{return "-";}
 	}
-	public String mutateCheck(Mutate mutate){
+	private String mutateCheck(Mutate mutate){
 		if(mutate!=null){
 			return mutate.toString();
 		}else{
@@ -84,6 +87,7 @@ public class Demon {
 	public Stats getStats(){return stats;}
 	public Affinities getAff(){return affinity;}
 	public Skills getSkills(){return skills;}
-    public String getFusion(){return fusionCheck(fusions);}
+	public String[] getFusions(){return fusions[0];}
+    public String getFusionSQL(){return fusionCheck(fusions);}
     public String getMutate(){return mutateCheck(mutate);}
 }
