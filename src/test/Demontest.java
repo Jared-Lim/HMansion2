@@ -7,6 +7,13 @@ public class Demontest {
 		System.out.println(dmn.getNameEN());
 		System.out.println(dmn.getFusionSQL());
 		System.out.println(dmn.getStats().toString());
-		System.out.println(dmn.getSkills().toString());
+		System.out.println(dmn.getSkills());
+		
+		
+		Demon dmn2 = new Demon("res/demons/herald/metatron.json");
+		System.out.println(dmn2.getNameEN());
+		System.out.println(dmn2.getFusionSQL());
+		System.out.println(dmn2.getStats().toString());
+		System.out.println(dmn2.getSkills());
 	}
 }
