@@ -7,5 +7,7 @@ public class DBtest {
 		Database db = new Database("heretic.db");
 		db.makeSkillsTable();
 		db.parseSkillsFolder();	
+		db.makeDemonsTranslateTable();
+		db.parseDemonsFolderTranslate();
 	}
 }

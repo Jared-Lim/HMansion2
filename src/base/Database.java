@@ -11,6 +11,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import com.google.gson.Gson;
+
+import demon.Demon;
 import skill.Skill;
 
 public class Database {
@@ -96,12 +98,29 @@ public class Database {
 			pstate.setString(1, nameJP);
 	    	ResultSet rset = pstate.executeQuery();
 			return rset.getString("nameEN");
-		}catch(Exception e){
+		}catch(SQLException e){
 			System.out.println(e.getMessage());
 			return nameJP;
 		}
 		
 	}
-	
+	public void parseDemonsFolderTranslate(){
+		Gson gson = new Gson();
+		File directory = new File("res/demons/");
+		String[] files = directory.list();
+		for(String f:files){
+			String g ="res/demons/"+f;
+			System.out.println(g);
+		}
+	}
+	public void insertDemonTranslate(Demon demon){
+		String sql = "INSERT INTO translate (nameJP, nameEN) VALUES (?,?)";
+		try(PreparedStatement pstate = conn.prepareStatement(sql)){
+			pstate.setString(1, demon.getNameJP());
+			pstate.setString(2, demon.getNameEN());
+		}catch (SQLException e){
+			System.out.println(e.getMessage());
+		}
+	}
 	
 }
