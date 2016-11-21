@@ -70,8 +70,8 @@ public class Database {
 		}
 	}
 	public void insertSkill(Skill skill){
-		String sql = "INSERT INTO skills (ID,nameJP,nameEN,attr,cost,power,hits,kuli,hit,targ,str,effect) "+
-				"VALUES (?,?,?,?,?,?,?,?,?,?,?,?)";
+		String sql = "INSERT INTO skills (nameJP,nameEN,attr,cost,power,hits,kuli,hit,targ,str,effect) "+
+				"VALUES (?,?,?,?,?,?,?,?,?,?,?)";
 		try(PreparedStatement pstate = conn.prepareStatement(sql)){
 			pstate.setString(1, skill.getNJP());
 			pstate.setString(2, skill.getNEN());
