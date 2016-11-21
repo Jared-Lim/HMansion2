@@ -3,7 +3,7 @@ package test;
 import java.sql.*;
 import base.*;
 
-public class ATest {
+public class DBtest {
 	public static void main(String[] args) {
 		Database db = new Database();
 		try(Connection conn = db.connectDB("heretic.db")){
