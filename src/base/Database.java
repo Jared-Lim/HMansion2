@@ -106,7 +106,6 @@ public class Database {
 		}
 	}
 	public void parseDemonsFolderTranslate(){
-		Gson gson = new Gson();
 		File directory = new File("res/demons/");
 		String[] files = directory.list();
 		for(String f:files){
@@ -114,12 +113,8 @@ public class Database {
 			File innerDirectory = new File(demonDir);
 			String[] innerFiles = innerDirectory.list();
 			for(String g:innerFiles){
-				try(Reader reader = new FileReader(demonDir+"/"+g)){
-					Demon demon = gson.fromJson(reader, Demon.class);
-					insertDemonTranslate(demon);
-				} catch (IOException e) {
-					System.out.println(e.getMessage());
-				}
+				Demon dmn = new Demon(demonDir+"/"+g);
+				insertDemonTranslate(dmn);
 			}
 		}
 	}
