@@ -109,8 +109,17 @@ public class Database {
 		File directory = new File("res/demons/");
 		String[] files = directory.list();
 		for(String f:files){
-			String g ="res/demons/"+f;
-			System.out.println(g);
+			String demonDir = "res/demons/"+f;
+			File innerDirectory = new File(demonDir);
+			String[] innerFiles = innerDirectory.list();
+			for(String g:innerFiles){
+				try(Reader reader = new FileReader(demonDir+"/"+g)){
+					Demon demon = gson.fromJson(reader, Demon.class);
+					System.out.println(demon.getNameEN());
+				} catch (IOException e) {
+					System.out.println(e.getMessage());
+				}
+			}
 		}
 	}
 	public void insertDemonTranslate(Demon demon){

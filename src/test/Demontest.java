@@ -3,7 +3,7 @@ import demon.*;
 
 public class Demontest {
 	public static void main(String[] args) {
-		Demon dmn = new Demon("res/demons/amatsukami/amaterasu.json");
+		Demon dmn = new Demon("res/demons/herald/aniel.json");
 		System.out.println(dmn.toString());
 	}
 }
