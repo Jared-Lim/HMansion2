@@ -131,7 +131,7 @@ public class Database {
 			pstate.executeUpdate();
 			System.out.println("Inserted "+demon.getNameEN());
 		}catch (SQLException e){
-			System.out.println(e.getMessage()+" "+demon.getNameEN());
+			System.out.println(e.getMessage()+" "+demon.getTribe()+" "+demon.getNameEN());
 		}
 	}
 	
@@ -226,9 +226,9 @@ public class Database {
 			pstate.setString(26, demon.getFusionSQL());
 			pstate.setString(27, demon.getNameEN());
 			pstate.executeUpdate();
-			System.out.println("Inserted "+demon.getNameEN());
+			System.out.println("Inserted "+demon.getTribe()+" "+demon.getNameEN());
 		}catch (SQLException e){
-			System.out.println(e.getMessage()+" "+demon.getNameEN());
+			System.out.println(e.getMessage()+" "+demon.getTribe()+" "+demon.getNameEN());
 		}
 	}
 	public String translateDemon(String nameJP){
