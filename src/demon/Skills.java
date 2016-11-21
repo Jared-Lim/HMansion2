@@ -13,7 +13,7 @@ public class Skills {
 		StringBuilder sb = new StringBuilder();
 		int i = 1;
 		for(SingleSkill temp : ListOfSkills){
-			sb.append(temp.getName()).append(" [").append(temp.getLevel()).append("]");
+			sb.append(temp.toString());
 			if(i++ != ListOfSkills.size()){
 				sb.append(", ");
 			}
