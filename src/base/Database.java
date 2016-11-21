@@ -51,13 +51,13 @@ public class Database {
 				Skill skill = gson.fromJson(reader, Skill.class);
 				skill.setID(count);
 				count++;
-				insertSkill(conn,skill);
+				insertSkill(skill);
 			} catch (IOException e) {
 				System.out.println(e.getMessage());
 			}
 		}
 	}
-	public void insertSkill(Connection conn,Skill skill){
+	public void insertSkill(Skill skill){
 		String sql = "INSERT INTO skills (ID,nameJP,nameEN,attr,cost,power,hits,kuli,hit,targ,str,effect) "+
 				"VALUES (?,?,?,?,?,?,?,?,?,?,?,?)";
 		try(PreparedStatement pstate = conn.prepareStatement(sql)){
@@ -79,7 +79,18 @@ public class Database {
 			System.out.println(e.getMessage()+" -> "+skill.getNEN());;
 		}
 	}
-	
+	public String translateSkill(String nameJP){
+		String sql = "SELECT nameEN FROM skills WHERE nameJP = ?";
+		try(PreparedStatement pstate = conn.prepareStatement(sql)){
+			pstate.setString(1, nameJP);
+	    	ResultSet rset = pstate.executeQuery();
+			return rset.getString("nameEN");
+		}catch(Exception e){
+			System.out.println(e.getMessage());
+			return nameJP;
+		}
+		
+	}
 	
 	
 }
