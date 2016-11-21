@@ -46,54 +46,6 @@ public class Database {
 			System.out.println(e.getMessage());;
 		}
 	}
-	public void makeDemonsTranslateTable(){
-		String sql = "CREATE TABLE translate ("+
-					"nameJP STRING UNIQUE,"+
-					"nameEN STRING UNIQUE)";
-		try(PreparedStatement pstate = conn.prepareStatement(sql)){
-			pstate.executeUpdate();
-			System.out.println("Created translate table");
-		}catch(SQLException e){
-			System.out.println(e.getMessage());;
-		}
-	}
-	public void makeDemonsTable(){
-		String sql = "CREATE TABLE demons ("+
-					"tribe STRING,"+
-					"nameJP STRING UNIQUE,"+
-					"nameEN STRING UNIQUE,"+
-					"level INT,"+
-					"hp INT,"+
-					"mp INT,"+
-					"str INT,"+
-					"dex INT,"+
-					"mag INT,"+
-					"spd INT,"+
-					"luk INT,"+
-					"phy STRING,"+
-					"gun STRING,"+
-					"fir STRING,"+
-					"ice STRING,"+
-					"thu STRING,"+
-					"sho STRING,"+
-					"ban STRING,"+
-					"cur STRING,"+
-					"bin STRING,"+
-					"sle STRING,"+
-					"col STRING,"+
-					"con STRING,"+
-					"poi STRING,"+
-					"skills STRING,"+
-					"fusion STRING,"+
-					"mutate STRING)";
-		try(PreparedStatement pstate = conn.prepareStatement(sql)){
-			pstate.executeUpdate();
-			System.out.println("Created demons table");
-		}catch(SQLException e){
-			System.out.println(e.getMessage());;
-		}
-	}
-	
 	public void parseSkillsFolder(){
 		Gson gson = new Gson();
 		File directory = new File("res/skills/");
@@ -142,6 +94,17 @@ public class Database {
 		
 	}
 	
+	public void makeDemonsTranslateTable(){
+		String sql = "CREATE TABLE translate ("+
+					"nameJP STRING UNIQUE,"+
+					"nameEN STRING UNIQUE)";
+		try(PreparedStatement pstate = conn.prepareStatement(sql)){
+			pstate.executeUpdate();
+			System.out.println("Created translate table");
+		}catch(SQLException e){
+			System.out.println(e.getMessage());;
+		}
+	}
 	public void parseDemonsFolderTranslate(){
 		Gson gson = new Gson();
 		File directory = new File("res/demons/");
@@ -172,6 +135,42 @@ public class Database {
 		}
 	}
 	
+	public void makeDemonsTable(){
+		String sql = "CREATE TABLE demons ("+
+					"tribe STRING,"+
+					"nameJP STRING UNIQUE,"+
+					"nameEN STRING UNIQUE,"+
+					"level INT,"+
+					"hp INT,"+
+					"mp INT,"+
+					"str INT,"+
+					"dex INT,"+
+					"mag INT,"+
+					"spd INT,"+
+					"luk INT,"+
+					"phy STRING,"+
+					"gun STRING,"+
+					"fir STRING,"+
+					"ice STRING,"+
+					"thu STRING,"+
+					"sho STRING,"+
+					"ban STRING,"+
+					"cur STRING,"+
+					"bin STRING,"+
+					"sle STRING,"+
+					"col STRING,"+
+					"con STRING,"+
+					"poi STRING,"+
+					"skills STRING,"+
+					"fusion STRING,"+
+					"mutate STRING)";
+		try(PreparedStatement pstate = conn.prepareStatement(sql)){
+			pstate.executeUpdate();
+			System.out.println("Created demons table");
+		}catch(SQLException e){
+			System.out.println(e.getMessage());;
+		}
+	}
 	public void parseDemonsFolder(){
 		Gson gson = new Gson();
 		File directory = new File("res/demons/");
