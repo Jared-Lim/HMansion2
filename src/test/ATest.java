@@ -1,7 +1,7 @@
-package base;
+package test;
 
-import java.sql.Connection;
-import java.sql.SQLException;
+import java.sql.*;
+import base.*;
 
 public class ATest {
 	public static void main(String[] args) {
