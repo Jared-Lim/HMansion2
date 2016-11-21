@@ -190,7 +190,7 @@ public class Database {
 		}
 	}
 	public void insertDemon(Demon demon){
-		String sql = "INSERT INTO translate "
+		String sql = "INSERT INTO demons "
 				+ "(tribe,nameJP,nameEN,level,"+
 				"hp,mp,str,dex,mag,spd,luk,"+
 				"phy,gun,fir,ice,thu,"+
