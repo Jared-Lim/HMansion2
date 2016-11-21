@@ -1,7 +1,15 @@
 package base;
 
-import java.io.*;
-import java.sql.*;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.Reader;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
 import com.google.gson.Gson;
 import skill.Skill;
 
