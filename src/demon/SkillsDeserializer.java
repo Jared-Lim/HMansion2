@@ -23,30 +23,29 @@ public class SkillsDeserializer implements JsonDeserializer<Skills>{
 	public Skills deserialize(JsonElement arg0, Type arg1, 
 			JsonDeserializationContext arg2) throws JsonParseException {
 		JsonObject obj = arg0.getAsJsonObject();
-		
 		List<SingleSkill> SkillsList = new ArrayList<>();
-		
-		for(Map.Entry<String, JsonElement> entry : obj.entrySet()){
-			SingleSkill skl = new SingleSkill();
-			String nameJP = entry.getKey();
-    		String sql = "SELECT nameEN FROM skills WHERE nameJP = ?";
-			Database db = new Database();
-			try(Connection conn = db.connectDB("heretic.db");
-					PreparedStatement pstate = conn.prepareStatement(sql)){
-				pstate.setString(1, nameJP);
-	    		ResultSet rset = pstate.executeQuery();
-				skl.setName(rset.getString("nameEN"));
-			}catch(Exception e){
-				System.out.println(e.getMessage());
-				skl.setName(entry.getKey());
+		String sql = "SELECT nameEN FROM skills WHERE nameJP = ?";
+		Database db = new Database();
+		try(Connection conn = db.connectDB("heretic.db")){
+			for(Map.Entry<String, JsonElement> entry : obj.entrySet()){
+				SingleSkill skl = new SingleSkill();
+				String nameJP = entry.getKey();
+	    		try(PreparedStatement pstate = conn.prepareStatement(sql)){
+					pstate.setString(1, nameJP);
+			    	ResultSet rset = pstate.executeQuery();
+					skl.setName(rset.getString("nameEN"));
+	    		}catch(Exception e){
+	    			System.out.println(e.getMessage());
+					skl.setName(nameJP);
+	    		}
+				skl.setLevel(entry.getValue().getAsInt());
+				SkillsList.add(skl);
 			}
-			skl.setLevel(entry.getValue().getAsInt());
-			SkillsList.add(skl);
+		}catch(Exception e){
+			System.out.println(e.getMessage());
 		}
-		
 		Skills skills = new Skills();
 		skills.setSkills(SkillsList);
-		
 		return skills;
 	}
 	
