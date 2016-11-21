@@ -26,9 +26,8 @@ public class Database {
 
 	public void makeSkillsTable(){
 		String sql ="CREATE TABLE skills ("+
-				"ID 	INT PRIMARY KEY NOT NULL,"+
-				"nameJP STRING,"+
-				"nameEN STRING,"+
+				"nameJP STRING UNIQUE,"+
+				"nameEN STRING UNIQUE,"+
 				"attr 	STRING,"+
 				"cost 	INT,"+
 				"power 	STRING,"+
@@ -45,20 +44,25 @@ public class Database {
 			System.out.println(e.getMessage());;
 		}
 	}
-	public void makeDemonsTable(){
-		
+	public void makeDemonsTranslateTable(){
+		String sql = "CREATE TABLE translate ("+
+					"nameJP STRING UNIQUE,"+
+					"nameEN STRING UNIQUE)";
+		try(PreparedStatement pstate = conn.prepareStatement(sql)){
+			pstate.executeUpdate();
+			System.out.println("Created translate table");
+		}catch(SQLException e){
+			System.out.println(e.getMessage());;
+		}
 	}
 	public void parseSkillsFolder(){
 		Gson gson = new Gson();
 		File directory = new File("res/skills/");
 		String[] files = directory.list();
-		int count = 1;
 		for(String f:files){
 			String g ="res/skills/"+f;
 			try(Reader reader = new FileReader(g)){
 				Skill skill = gson.fromJson(reader, Skill.class);
-				skill.setID(count);
-				count++;
 				insertSkill(skill);
 			} catch (IOException e) {
 				System.out.println(e.getMessage());
@@ -69,18 +73,17 @@ public class Database {
 		String sql = "INSERT INTO skills (ID,nameJP,nameEN,attr,cost,power,hits,kuli,hit,targ,str,effect) "+
 				"VALUES (?,?,?,?,?,?,?,?,?,?,?,?)";
 		try(PreparedStatement pstate = conn.prepareStatement(sql)){
-			pstate.setInt(1, skill.getID());
-			pstate.setString(2, skill.getNJP());
-			pstate.setString(3, skill.getNEN());
-			pstate.setString(4, skill.getATT());
-			pstate.setInt(5, skill.getCST());
-			pstate.setString(6, skill.getPWR());
-			pstate.setString(7, skill.getHTS());
-			pstate.setString(8, skill.getCRI());
-			pstate.setString(9, skill.getACC());
-			pstate.setString(10, skill.getTAR());
-			pstate.setInt(11, skill.getSTR());
-			pstate.setString(12, skill.getEFF());
+			pstate.setString(1, skill.getNJP());
+			pstate.setString(2, skill.getNEN());
+			pstate.setString(3, skill.getATT());
+			pstate.setInt(4, skill.getCST());
+			pstate.setString(5, skill.getPWR());
+			pstate.setString(6, skill.getHTS());
+			pstate.setString(7, skill.getCRI());
+			pstate.setString(8, skill.getACC());
+			pstate.setString(9, skill.getTAR());
+			pstate.setInt(10, skill.getSTR());
+			pstate.setString(11, skill.getEFF());
 			pstate.executeUpdate();
 			System.out.println("Inserted "+skill.getNEN());
 		}catch(SQLException e){

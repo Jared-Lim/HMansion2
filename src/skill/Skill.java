@@ -1,7 +1,6 @@
 package skill;
 
 public class Skill {
-	private int ID = 0;				//skill ID for table purposes
 	private String nameJP;		//japanese name for mapping
 	private String nameEN;		//english name
 	private String attribute;	//element of skill
@@ -14,16 +13,9 @@ public class Skill {
 	private int strengthen;		//how many times skill can be EMPOWERED
 	private String effect;		//description of skill
 	
-	public void setID(int ID){
-		if(ID>0){
-			this.ID=ID;
-		}
-	}
-	
 	@Override
 	public String toString(){
-		return 	"ID:		"+ID+"\n"+
-				"nameJP:  	"+nameJP+"\n"+
+		return 	"nameJP:  	"+nameJP+"\n"+
 				"nameEN: 	"+nameEN+"\n"+
 				"attr:     	"+attribute+"\n"+
 				"cost:    	"+cost+"\n"+
@@ -36,7 +28,6 @@ public class Skill {
 				"effect:\n	"+effect;
 	}
 	
-	public int getID(){return ID;}
 	public String getNJP(){return nameJP;}
 	public String getNEN(){return nameEN;}
 	public String getATT(){return attribute;}
