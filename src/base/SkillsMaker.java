@@ -13,7 +13,6 @@ import com.google.gson.Gson;
 import skill.Skill;
 
 public class SkillsMaker extends Database{
-
 	public SkillsMaker(String dblocation) {
 		super(dblocation);
 	}

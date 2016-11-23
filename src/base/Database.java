@@ -21,43 +21,6 @@ public class Database {
 	}
 	public Connection getConn(){return conn;}
 
-	public void makeDemonsTranslateTable(){
-		String sql = "CREATE TABLE translate ("+
-					"nameJP STRING UNIQUE,"+
-					"nameEN STRING UNIQUE)";
-		try(PreparedStatement pstate = conn.prepareStatement(sql)){
-			pstate.executeUpdate();
-			System.out.println("Created translate table");
-		}catch(SQLException e){
-			System.out.println(e.getMessage());;
-		}
-	}
-	public void parseDemonsFolderTranslate(){
-		File directory = new File("res/demons/");
-		String[] files = directory.list();
-		for(String f:files){
-			String demonDir = "res/demons/"+f;
-			File innerDirectory = new File(demonDir);
-			String[] innerFiles = innerDirectory.list();
-			for(String g:innerFiles){
-				Demon dmn = new Demon(demonDir+"/"+g);
-				insertDemonTranslate(dmn);
-				dmn = null;
-			}
-		}
-	}
-	public void insertDemonTranslate(Demon demon){
-		String sql = "INSERT INTO translate (nameJP, nameEN) VALUES (?,?)";
-		try(PreparedStatement pstate = conn.prepareStatement(sql)){
-			pstate.setString(1, demon.getNameJP());
-			pstate.setString(2, demon.getNameEN());
-			pstate.executeUpdate();
-			System.out.println("Translated "+demon.getNameEN());
-		}catch (SQLException e){
-			System.out.println(e.getMessage()+" "+demon.getTribe()+" "+demon.getNameEN());
-		}
-	}
-	
 	public void makeDemonsTable(){
 		String sql = "CREATE TABLE demons ("+
 					"tribe STRING,"+

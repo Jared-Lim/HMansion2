@@ -1,11 +1,16 @@
 package test;
 
-import base.SkillsMaker;
+import base.*;
 
 public class ExtendTest {
 	public static void main(String[] args) {
-		SkillsMaker skm = new SkillsMaker("heretic.db");
+		String db = "heretic.db";
+		SkillsMaker skm = new SkillsMaker(db);
 		skm.makeSkillsTable();
 		skm.parseSkillsFolder();
+		
+		DemonTranslate dts = new DemonTranslate(db);
+		dts.makeDemonsTranslateTable();
+		dts.parseDemonsFolderTranslate();
 	}
 }
