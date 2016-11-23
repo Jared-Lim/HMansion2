@@ -1,5 +1,5 @@
 {
-	"tribe": "女神",
+	"tribe": "herald",
 	"nameJP": "ハトホル",
 	"nameEN": "Hathor",
 	"level": 18,
@@ -32,5 +32,6 @@
 		"パトラ": 0,
 		"ポズムディ": 19,
 		"ラクンダ": 20
-	}
+	},
+	"notes": "Normal attack: Phys x1 hits. 1 enemy"
 }

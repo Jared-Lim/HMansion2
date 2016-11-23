@@ -1,5 +1,5 @@
 {
-	"tribe": "大天使",
+	"tribe": "herald",
 	"nameJP": "ヴィクター",
 	"nameEN": "Victor",
 	"level": 40,
@@ -31,5 +31,6 @@
 		"ハマオン": 0,
 		"ブラストアロー": 0,
 		"呪殺無効": 43
-	}
+	},
+	"notes": "Normal attack: Phys x1 hits, 1 enemy"
 }

@@ -1,5 +1,5 @@
 {
-	"tribe": "大天使",
+	"tribe": "herald",
 	"nameJP": "イスラフィール",
 	"nameEN": "Israfel",
 	"level": 45,
@@ -32,5 +32,6 @@
 		"ハマオン": 0,
 		"パニックボイス": 0,
 		"ディアラハン": 46
-	}
+	},
+	"notes": "Normal attack: Phys x1 hits, 1 enemy"
 }

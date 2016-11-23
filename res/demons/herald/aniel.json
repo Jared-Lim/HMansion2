@@ -1,5 +1,5 @@
 {
-	"tribe": "大天使",
+	"tribe": "herald",
 	"nameJP": "ハニエル",
 	"nameEN": "Aniel",
 	"level": 71,
@@ -32,5 +32,6 @@
 		"ディアラマ": 0,
 		"プリンパ": 0,
 		"ハマオン": 72
-	}
+	},
+	"notes": "Normal attack: Phys x1 hits, 1 enemy"
 }

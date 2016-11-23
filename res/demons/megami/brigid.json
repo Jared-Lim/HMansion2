@@ -1,5 +1,5 @@
 {
-	"tribe": "女神",
+	"tribe": "herald",
 	"nameJP": "ブリジット",
 	"nameEN": "Brigid",
 	"level": 33,
@@ -31,5 +31,6 @@
 		"メディラマ": 0,
 		"アギラオ": 0,
 		"二分の魔脈": 34
-	}
+	},
+	"notes": "Normal attack: Phys x1 hits, 1 enemy"
 }

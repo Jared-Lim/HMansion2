@@ -1,5 +1,5 @@
 {
-	"tribe": "大天使",
+	"tribe": "herald",
 	"nameJP": "スラオシャ",
 	"nameEN": "Sraosha",
 	"level": 67,
@@ -31,5 +31,6 @@
 		"天罰": 0,
 		"チャクラウォーク": 0,
 		"ディアラハン": 68
-	}
+	},
+	"notes": "Normal attack: Phys x1 hits, 1 enemy"
 }

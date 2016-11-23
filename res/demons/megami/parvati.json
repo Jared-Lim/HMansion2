@@ -1,5 +1,5 @@
 {
-	"tribe": "女神",
+	"tribe": "herald",
 	"nameJP": "パールヴァティ",
 	"nameEN": "Parvati",
 	"level": 25,
@@ -31,5 +31,6 @@
 		"メディア": 0,
 		"ラクカジャ": 0,
 		"チャクラウォーク": 26
-	}
+	},
+	"notes": "Normal attack: Phys x1 hits, 1 enemy"
 }

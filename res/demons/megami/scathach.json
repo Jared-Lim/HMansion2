@@ -1,5 +1,5 @@
 {
-	"tribe": "女神",
+	"tribe": "herald",
 	"nameJP": "スカアハ",
 	"nameEN": "Scathach",
 	"level": 39,
@@ -31,5 +31,6 @@
 		"マハザンマ": 0,
 		"鬼神楽": 0,
 		"グランドタック": 42
-	}
+	},
+	"notes": "Normal attack: Phys x1 hits, 1 enemy"
 }

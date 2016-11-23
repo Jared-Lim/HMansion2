@@ -1,5 +1,5 @@
 {
-	"tribe": "大天使",
+	"tribe": "herald",
 	"nameJP": "アズラエル",
 	"nameEN": "Azrael",
 	"level": 62,
@@ -31,5 +31,6 @@
 		"アギダイン": 0,
 		"サマリカーム": 0,
 		"マハムドオン": 63
-	}
+	},
+	"notes": "Normal attack: Phys x1 hits, 1 enemy"
 }

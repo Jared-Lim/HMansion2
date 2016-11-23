@@ -1,5 +1,5 @@
 {
-	"tribe": "女神",
+	"tribe": "herald",
 	"nameJP": "パラスアテナ",
 	"nameEN": "Pallas Athena",
 	"level": 51,
@@ -31,5 +31,6 @@
 		"マカラカーン": 0,
 		"モータルジハード": 0,
 		"チャクラウォーク": 53
-	}
+	},
+	"notes": "Normal attack: Phys x1 hits, 1 enemy"
 }
