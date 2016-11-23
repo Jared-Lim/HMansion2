@@ -36,6 +36,7 @@ public class Demon {
 			this.skills = dmn.skills;
 			this.fusions = dmn.fusions;
 			this.mutate = dmn.mutate;
+			dmn = null;
 	    }catch(IOException e){
 	    	System.out.println(e.getMessage());
 	    }
