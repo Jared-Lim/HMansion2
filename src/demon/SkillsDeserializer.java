@@ -11,7 +11,7 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParseException;
 
-import base.Database;
+import base.SkillsMaker;
 
 public class SkillsDeserializer implements JsonDeserializer<Skills>{
 
@@ -20,7 +20,7 @@ public class SkillsDeserializer implements JsonDeserializer<Skills>{
 			JsonDeserializationContext arg2) throws JsonParseException {
 		JsonObject obj = arg0.getAsJsonObject();
 		List<SingleSkill> SkillsList = new ArrayList<>();
-		Database db = new Database("heretic.db");
+		SkillsMaker db = new SkillsMaker("heretic.db");
 		for(Map.Entry<String, JsonElement> entry : obj.entrySet()){
 			SingleSkill skl = new SingleSkill();
 			String nameJP = entry.getKey();
