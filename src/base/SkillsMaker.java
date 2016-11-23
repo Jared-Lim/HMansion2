@@ -1,14 +1,9 @@
 package base;
 
 import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.Reader;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-
-import com.google.gson.Gson;
 
 import skill.Skill;
 
@@ -38,18 +33,12 @@ public class SkillsMaker extends Database{
 		}
 	}
 	public void parseSkillsFolder(){
-		Gson gson = new Gson();
 		File directory = new File("res/skills/");
 		String[] files = directory.list();
 		for(String f:files){
-			String g ="res/skills/"+f;
-			try(Reader reader = new FileReader(g)){
-				Skill skill = gson.fromJson(reader, Skill.class);
-				insertSkill(skill);
-				skill = null;
-			} catch (IOException e) {
-				System.out.println(e.getMessage());
-			}
+			Skill skill = new Skill("res/skills/"+f);
+			insertSkill(skill);
+			skill = null;
 		}
 	}
 	public void insertSkill(Skill skill){
