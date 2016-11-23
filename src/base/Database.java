@@ -55,6 +55,7 @@ public class Database {
 			try(Reader reader = new FileReader(g)){
 				Skill skill = gson.fromJson(reader, Skill.class);
 				insertSkill(skill);
+				skill = null;
 			} catch (IOException e) {
 				System.out.println(e.getMessage());
 			}
@@ -115,6 +116,7 @@ public class Database {
 			for(String g:innerFiles){
 				Demon dmn = new Demon(demonDir+"/"+g);
 				insertDemonTranslate(dmn);
+				dmn = null;
 			}
 		}
 	}
@@ -176,6 +178,7 @@ public class Database {
 			for(String g:innerFiles){
 				Demon dmn = new Demon(demonDir+"/"+g);
 				insertDemon(dmn);
+				dmn = null;
 			}
 		}
 	}

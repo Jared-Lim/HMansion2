@@ -11,5 +11,6 @@ public class DBtest {
 		db.parseDemonsFolderTranslate();
 		db.makeDemonsTable();
 		db.parseDemonsFolder();
+		db.close();
 	}
 }
