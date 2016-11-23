@@ -124,7 +124,7 @@ public class Database {
 			pstate.setString(1, demon.getNameJP());
 			pstate.setString(2, demon.getNameEN());
 			pstate.executeUpdate();
-			System.out.println("Inserted "+demon.getNameEN());
+			System.out.println("Translated "+demon.getNameEN());
 		}catch (SQLException e){
 			System.out.println(e.getMessage()+" "+demon.getTribe()+" "+demon.getNameEN());
 		}
