@@ -12,5 +12,9 @@ public class ExtendTest {
 		DemonTranslate dts = new DemonTranslate(db);
 		dts.makeDemonsTranslateTable();
 		dts.parseDemonsFolderTranslate();
+		
+		DemonMaker dmk = new DemonMaker(db);
+		dmk.makeDemonsTable();
+		dmk.parseDemonsFolder();
 	}
 }
