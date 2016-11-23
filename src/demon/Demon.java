@@ -7,7 +7,7 @@ import java.io.Reader;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import base.Database;
+import base.DemonTranslate;
 
 public class Demon {
 	private String tribe;
@@ -60,7 +60,7 @@ public class Demon {
 	}
 	private String fusionCheck(String[][] fuse){
 		if(fuse!=null){
-			Database db = new Database("heretic.db");
+			DemonTranslate db = new DemonTranslate("heretic.db");
 			StringBuilder str = new StringBuilder();
 			for(int i=0;i<fuse[0].length;i++){
 				str.append(db.translateDemon(fuse[0][i]));

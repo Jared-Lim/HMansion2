@@ -2,6 +2,7 @@ package base;
 
 import java.io.File;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import demon.Demon;
@@ -45,6 +46,17 @@ public class DemonTranslate extends Database{
 			System.out.println("Translated "+demon.getNameEN());
 		}catch (SQLException e){
 			System.out.println(e.getMessage()+" "+demon.getTribe()+" "+demon.getNameEN());
+		}
+	}
+	public String translateDemon(String nameJP){
+		String sql = "SELECT nameEN FROM translate WHERE nameJP = ?";
+		try(PreparedStatement pstate = super.getConn().prepareStatement(sql)){
+			pstate.setString(1, nameJP);
+	    	ResultSet rset = pstate.executeQuery();
+			return rset.getString("nameEN");
+		}catch(SQLException e){
+			System.out.println(e.getMessage());
+			return nameJP;
 		}
 	}
 }
