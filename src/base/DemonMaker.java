@@ -102,6 +102,5 @@ public class DemonMaker extends Database {
 		}catch (SQLException e){
 			System.out.println(e.getMessage()+" "+demon.getTribe()+" "+demon.getNameEN());
 		}
-	}
-		
+	}	
 }
