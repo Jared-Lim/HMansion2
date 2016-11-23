@@ -28,6 +28,7 @@ public class SkillsDeserializer implements JsonDeserializer<Skills>{
 			skl.setLevel(entry.getValue().getAsInt());
 			SkillsList.add(skl);
 		}
+		db.close();
 		Skills skills = new Skills();
 		skills.setSkills(SkillsList);
 		return skills;
